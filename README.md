@@ -1,10 +1,10 @@
-# Title
+# ARIA labelling experiment
 
-Description.
+Just a little experiment on how screen readers handle languages and ARIA labels.
 
 ## Demo
 
-[See it live!](https://xurxe.github.io/html-css-js-template/)
+[See it live!](https://xurxe.github.io/aria-labelling-test)
 
 ## Author
 
