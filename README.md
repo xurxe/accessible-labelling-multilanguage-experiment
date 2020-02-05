@@ -2,6 +2,10 @@
 
 Just a little experiment on how screen readers handle languages and ARIA labels.
 
+## Test results
+
+Coming soon.
+
 ## Demo
 
 [See it live!](https://xurxe.github.io/aria-labelling-test)
@@ -16,4 +20,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-Nice people.
+Coming soon.
