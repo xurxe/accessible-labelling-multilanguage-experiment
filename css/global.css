@@ -1,0 +1,210 @@
+/* ------- */
+/* GENERAL */
+/* ------- */
+
+:root {
+  --purple: hsl(270, 50%, 50%);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 300px;
+}
+
+.ScreenreaderOnly {
+  position: absolute;
+  left: -9999px;
+}
+
+/* ---- */
+/* FONT */
+/* ---- */
+
+/* On narrow screens, the scale between p, h2, and h1 is about the golden number (1.62)*/
+.P {
+  font-size: 20px;
+  line-height: 1.5em;
+  margin-bottom: 2em;
+}
+
+.H2 {
+  font-size: 32px;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+}
+
+.H1 {
+  font-size: 52px;
+  font-weight: normal;
+  margin-bottom: 0.25em;
+}
+
+/* On wide screens, the scale between p, h2, and h1 is about e (2.72) */
+@media only screen and (min-width: 900px) {
+  .H2 {
+    font-size: 54px;
+  }
+
+  .H1 {
+    font-size: 148px;
+  }
+}
+
+/*
+To transition, we use the following formula:
+MINpx + (MAX - MIN) * (100vw - LOWERpx) / (UPPER - LOWER)
+where:
+MIN = min value
+MAX = max value
+LOWER = min-width
+UPPER = max-width
+change calc formulas manually if any parameters change!
+*/
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .H2 {
+    font-size: calc(32px + (54 - 32) * (100vw - 600px) / (900 - 600));
+  }
+
+  .H1 {
+    font-size: calc(52px + (148 - 52) * (100vw - 600px) / (900 - 600));
+  }
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+.LightTextDarkBackground {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -o-font-smoothing: antialiased;
+}
+
+/* ------- */
+/* SPACING */
+/* ------- */
+
+/* Narrow screens */
+.ResponsivePadding___right {
+  padding-right: 20px;
+}
+
+.ResponsivePadding___left {
+  padding-left: 20px;
+}
+
+.ResponsiveMargin___right {
+  margin-right: 20px;
+}
+
+.ResponsiveMargin___left {
+  margin-left: 20px;
+}
+
+/* Wide screens */
+/* You can use viewport units, but you need to calculate the size in pixels at the breaking point, so you can use it on the next step */
+@media only screen and (min-width: 900px) {
+  .ResponsivePadding___right {
+    /* 10vw at 900px -> 900 * 0.1 = 90 */
+    padding-right: 10vw;
+  }
+
+  .ResponsivePadding___left {
+    /* 10vw at 900px -> 900 * 0.1 = 90 */
+    padding-left: 10vw;
+  }
+
+  .ResponsiveMargin___right {
+    /* 10vw at 900px -> 900 * 0.1 = 90 */
+    margin-right: 10vw;
+  }
+
+  .ResponsiveMargin___left {
+    /* 10vw at 900px -> 900 * 0.1 = 90 */
+    margin-left: 10vw;
+  }
+}
+
+/*
+To transition, we use the following formula:
+MINpx + (MAX - MIN) * (100vw - LOWERpx) / (UPPER - LOWER)
+where:
+MIN = min value
+MAX = max value
+LOWER = min-width
+UPPER = max-width
+change calc formulas manually if any parameters change!
+*/
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .ResponsivePadding___right {
+    padding-right: calc(20px + (90 - 20) * (100vw - 600px) / (900 - 600));
+  }
+
+  .ResponsivePadding___left {
+    padding-left: calc(20px + (90 - 20) * (100vw - 600px) / (900 - 600));
+  }
+
+  .ResponsiveMargin___right {
+    margin-right: calc(20px + (90 - 20) * (100vw - 600px) / (900 - 600));
+  }
+
+  .ResponsiveMargin___left {
+    margin-left: calc(20px + (90 - 20) * (100vw - 600px) / (900 - 600));
+  }
+}
+
+/* ------ */
+/* HEADER */
+/* ------ */
+
+.Header {
+  padding-top: 2rem;
+}
+
+/* ---- */
+/* MAIN */
+/* ---- */
+.Main {
+  padding-bottom: 2rem;
+}
+
+/* ------ */
+/* FOOTER */
+/* ------ */
+
+.Footer {
+  background-color: var(--purple);
+  margin-top: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.P___footer {
+  color: white;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
