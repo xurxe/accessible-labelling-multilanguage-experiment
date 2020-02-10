@@ -2,6 +2,10 @@
 
 Just a little experiment on how screen readers handle languages and ARIA labels.
 
+## Demo
+
+[Check it out on GitHub pages](https://xurxe.github.io/aria-labelling-test/)!
+
 ## Test results
 
 All tests done with website in English, OS in Finnish
