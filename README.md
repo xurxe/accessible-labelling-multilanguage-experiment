@@ -30,6 +30,22 @@ All tests done with website in English, OS in Finnish
 5. [Finnish voice] close, painike
 6. [English voice] close [Finnish voice] painike
 
+### MacBook + VoiceOver + Opera
+
+- macOS version: 10.15.2
+- Opera version: 66.0.3515.72
+
+1. [Finnish voice] close, painike
+2. [Finnish voice] close, painike
+3. [English voice] close [Finnish voice] painike, close
+4. [English voice] close [Finnish voice] painike
+5. [English voice] close [Finnish voice] painike
+6. [English voice] close [Finnish voice] painike
+
+### MacBook + VoiceOver + Firefox
+
+VoiceOver and Firefox don't really work together
+
 ### iPhone + VoiceOver + Chrome and Safari
 
 - iOS version: 13.3
