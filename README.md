@@ -36,7 +36,7 @@ All tests done with website in English, OS in Finnish
 
 ### MacBook + VoiceOver + Firefox
 
-VoiceOver and Firefox don't really work together
+VoiceOver and Firefox don't really work together on desktop
 
 ### MacBook + VoiceOver + Opera
 
@@ -62,11 +62,14 @@ VoiceOver and Firefox don't really work together
 5. [English voice] close [Finnish voice] painike, close
 6. [English voice] close [Finnish voice] painike
 
-### iPhone + VoiceOver + Safari and Chrome
+### iPhone + VoiceOver + Safari, Chrome, Firefox, Opera Touch, Edge
 
 - iOS version: 13.3
 - Chrome version: 79.0.3945.73
 - Safari version: 13.0
+- Firefox version: 20.2 (16690)
+- Opera Touch version: 2.0.4
+- Edge version: 44.10.13
 
 On iPhone, you can perform a simple gesture (by default, swipe up with one finger) to change VoiceOver language regardless of the OS language. When VoiceOver was in Finnish, everything was ready with a Finnish voice. When VoiceOver was in English, everything was read with an English voice.
 
@@ -161,6 +164,42 @@ With screen reader UI in English and screen reader voice in Finnish:
 4. [Finnish voice] button
 5. [Finnish voice] button, button [English voice] close [Finnish voice] button
 6. [Finnish voice] button, button [English voice] close
+
+### Asus + JAWS + Chrome
+
+- Windows version: 10 Home 18362.418
+- Chrome version: 80.0.3987.87
+
+1. [English voice] close button
+2. [English voice] close button
+3. [English voice] close button, close
+4. [English voice] close button
+5. [English voice] close button
+6. [English voice] close button
+
+### Asus + JAWS + Firefox
+
+- Windows version: 10 Home 18362.418
+- Firefox version: 72.0.2
+
+1. [English voice] close button
+2. [English voice] close button
+3. [English voice] close button, close
+4. [English voice] close button
+5. [English voice] close button
+6. [English voice] close button
+
+### Asus + JAWS + Opera
+
+- Windows version: 10 Home 18362.418
+- Opera version: 66.0.3515.72
+
+1. [English voice] close button
+2. [English voice] close button
+3. [English voice] close button, close
+4. [English voice] close button
+5. [English voice] close button
+6. [English voice] close button
 
 ## Author
 
