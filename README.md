@@ -8,10 +8,11 @@ Just a little experiment on how screen readers handle languages and different wa
 
 ## Test results
 
-All tests done with website in English and OS in Finnish
+All tests done with website in English and OS in Finnish.
 
 ### MacBook + VoiceOver
 
+- Device: MacBook Pro (16-inch, 2019)
 - macOS version: 10.15.2
 
 #### MacBook + VoiceOver + Safari
@@ -78,7 +79,9 @@ All tests done with website in English and OS in Finnish
 
 #### MacBook + VoiceOver + Firefox
 
-VoiceOver and Firefox didn't really work together on desktop.
+- Firefox version: 72.0.2
+
+VoiceOver and Firefox didn't really work together in this set up.
 
 #### MacBook + VoiceOver + Opera
 
@@ -144,6 +147,7 @@ VoiceOver and Firefox didn't really work together on desktop.
 
 ### iPhone + VoiceOver
 
+- Device: iPhone 11
 - iOS version: 13.3
 
 #### iPhone + VoiceOver + Safari, Chrome, Firefox, Opera Touch, Edge
@@ -158,6 +162,7 @@ On iPhone, you can perform a simple gesture (by default, swipe up with one finge
 
 ### Asus + NVDA
 
+- Device: Asus X540LA
 - Windows version: 10 Home 18362.418
 - NVDA version: 2019.3.1
 
@@ -355,6 +360,7 @@ With screen reader UI in English and screen reader voice in Finnish:
 
 ### Asus + JAWS
 
+- Device: Asus X540LA
 - Windows version: 10 Home 18362.418
 - JAWS version: 2019.1912.9 Multilingual
 - JAWS with "Language Detect Change" selected
@@ -553,7 +559,7 @@ With screen reader UI in English and screen reader voice in Finnish:
 
 #### Asus + JAWS + Edge
 
-- Edge version: 44.18362.387.0
+- Edge version: 80.0.361.50
 
 ##### Asus + JAWS + Edge + letting the screen reader run
 
@@ -614,6 +620,100 @@ With screen reader UI in English and screen reader voice in Finnish:
 4. [English voice] This button has `aria-labelledby`, and the `aria-hidden` and visually-hidden label is outside: close button
 5. [English voice] This button has `aria-labelledby`, and the visually-hidden label is inside: close button
 6. [English voice] This button has a visually-hidden label inside: close button
+
+### Samsung + TalkBack
+
+- Device: Samsung Galaxy S8+
+- OS: Android 9 Build/PPR1.180610.011
+- TalkBack version: 8.1.0.278818032
+
+#### Samsung + TalkBack + Chrome
+
+- Chrome version: 80.0.3987.99
+
+##### Samsung + TalkBack + Chrome + letting the screen reader run
+
+1. [English voice] close button
+2. [English voice] close button
+3. [English voice] close button, close
+4. [English voice] close button
+5. [English voice] close button
+6. [English voice] close button
+
+##### Samsung + TalkBack + Chrome + swiping right to move reading pointer
+
+1. [English voice] close button
+2. [English voice] close button
+3. [English voice] close button, close
+4. [English voice] close button
+5. [English voice] close button
+6. [English voice] close button
+
+#### Samsung + TalkBack + Firefox
+
+- Firefox version: 68.5.0
+
+##### Samsung + TalkBack + Firefox + letting the screen reader run
+
+1. [Finnish voice] close painike
+2. [Finnish voice] close painike
+3. [Finnish voice] close painike, close
+4. [Finnish voice] close painike
+5. [Finnish voice] close painike
+6. [Finnish voice] close painike
+
+##### Samsung + TalkBack + Firefox + swiping right to move reading pointer
+
+1. [Finnish voice] close painike
+2. [Finnish voice] close painike
+3. [Finnish voice] close painike, close
+4. [Finnish voice] close painike
+5. [Finnish voice] close painike
+6. [Finnish voice] close painike
+
+#### Samsung + TalkBack + Opera Touch
+
+- Opera version: 2.3.0
+
+##### Samsung + TalkBack + Opera + letting the screen reader run
+
+1. [English voice] close [Finnish voice] painike
+2. [English voice] close [Finnish voice] painike
+3. [English voice] close [Finnish voice] painike [English voice] close
+4. [English voice] close [Finnish voice] painike
+5. [English voice] close [Finnish voice] painike
+6. [English voice] close [Finnish voice] painike
+
+##### Samsung + TalkBack + Opera + swiping right to move reading pointer
+
+1. [English voice] close [Finnish voice] painike
+2. [English voice] close [Finnish voice] painike
+3. [English voice] close [Finnish voice] painike [English voice] close
+4. [English voice] close [Finnish voice] painike
+5. [English voice] close [Finnish voice] painike
+6. [English voice] close [Finnish voice] painike
+
+#### Samsung + TalkBack + Edge
+
+- Edge version: 44.11.4.4140
+
+##### Samsung + TalkBack + Edge + letting the screen reader run
+
+1. [English voice] close [Finnish voice] painike
+2. [English voice] close [Finnish voice] painike
+3. [English voice] close [Finnish voice] painike [English voice] close
+4. [English voice] close [Finnish voice] painike
+5. [English voice] close [Finnish voice] painike
+6. [English voice] close [Finnish voice] painike
+
+##### Samsung + TalkBack + Edge + swiping right to move reading pointer
+
+1. [English voice] close [Finnish voice] painike
+2. [English voice] close [Finnish voice] painike
+3. [English voice] close [Finnish voice] painike [English voice] close
+4. [English voice] close [Finnish voice] painike
+5. [English voice] close [Finnish voice] painike
+6. [English voice] close [Finnish voice] painike
 
 ## Author
 
