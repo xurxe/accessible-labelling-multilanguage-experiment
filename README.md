@@ -13,16 +13,25 @@ Put the text alternatives a `<span>` element or similar, and put that **inside**
 ## Setup
 
 I compared the following 6 approaches:
+
 A. Using `aria-label`.
+
 B. Using `aria-label` and an explicit `lang` attribute.
+
 C. Using `aria-labelledby` and referring to a visually-hidden label outside the labelled element.
+
 D. Using `aria-labelledby` and referring to a visually-hidden and `aria-hidden` label outside the labelled element.
+
 E. Using `aria-labelledby` and referring to a visually-hidden label inside the labelled element.
+
 F. Using a visually hidden label inside the labelled element.
 
 ...using 4 major screen readers (VoiceOver, NVDA, JAWS, TalkBack)
+
 ...on 5 major browsers (Safari, Chrome, Firefox, Opera / Opera Touch, Edge)
+
 ...on desktop and mobile
+
 ...in 3 modes (continous reading, using keyboard or swiping shortcuts to move the reading cursor, tabbing to move focus)
 
 ## Results
