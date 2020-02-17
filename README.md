@@ -1,719 +1,113 @@
-# Accessible naming experiment
+# Accessible labelling experiment
+
+Just a little experiment on how screen readers handle languages and different ways of providing accessible labels to elements.
 
-Just a little experiment on how screen readers handle languages and different ways of providing accessible names to elements.
-
-## Demo
-
-[Check it out on GitHub pages](https://xurxe.github.io/aria-labelling-test/)!
-
-## Test results
-
-All tests done with website in English and OS in Finnish.
-
-### MacBook + VoiceOver
-
-- Device: MacBook Pro (16-inch, 2019)
-- macOS version: 10.15.2
-
-#### MacBook + VoiceOver + Safari
-
-- Safari version: 13.0.4
-
-##### MacBook + VoiceOver + Safari + letting the screenreader run
-
-1. [Finnish voice] close, painike
-2. [Finnish voice] close, painike
-3. [Finnish voice] close, painike, close
-4. [Finnish voice] close, painike
-5. [Finnish voice] close, painike
-6. [English voice] close [Finnish voice] painike
-
-##### MacBook + VoiceOver + Safari + using VO-right arrow to move the reading cursor
-
-1. [Finnish voice] close, painike
-2. [Finnish voice] close, painike
-3. [English voice] close [Finnish voice] painike [English voice] close
-4. [Finnish voice] close, painike
-5. [Finnish voice] close, painike
-6. [English voice] close [Finnish voice] painike
-
-##### MacBook + VoiceOver + Safari + tabbing to move focus
-
-1. [Finnish voice] close, painike
-2. [Finnish voice] close, painike
-3. [English voice] close [Finnish voice] painike
-4. [Finnish voice] close, painike
-5. [Finnish voice] close, painike
-6. [English voice] close [Finnish voice] painike
-
-#### MacBook + VoiceOver + Chrome
-
-- Chrome version: 79.0.3945.130
-
-##### MacBook + VoiceOver + Chrome + letting the screenreader run
-
-1. [Finnish voice] close, painike
-2. [Finnish voice] close, painike
-3. [English voice] close [Finnish voice] painike, close
-4. [English voice] close [Finnish voice] painike
-5. [English voice] close [Finnish voice] painike
-6. [English voice] close [Finnish voice] painike
-
-##### MacBook + VoiceOver + Chrome + using VO-right arrow to move the reading cursor
-
-1. [Finnish voice] close, painike
-2. [Finnish voice] close, painike
-3. [English voice] close [Finnish voice] painike [English voice] close
-4. [English voice] close [Finnish voice] painike
-5. [English voice] close [Finnish voice] painike
-6. [English voice] close [Finnish voice] painike
-
-##### MacBook + VoiceOver + Chrome + tabbing to move focus
-
-1. [Finnish voice] close, painike
-2. [Finnish voice] close, painike
-3. [English voice] close [Finnish voice] painike
-4. [English voice] close [Finnish voice] painike
-5. [English voice] close [Finnish voice] painike
-6. [English voice] close [Finnish voice] painike
-
-#### MacBook + VoiceOver + Firefox
-
-- Firefox version: 72.0.2
-
-VoiceOver and Firefox didn't really work together in this set up.
-
-#### MacBook + VoiceOver + Opera
-
-- Opera version: 66.0.3515.72
-
-##### MacBook + VoiceOver + Opera + letting the screenreader run
-
-1. [Finnish voice] close, painike
-2. [Finnish voice] close, painike
-3. [English voice] close [Finnish voice] painike, close
-4. [English voice] close [Finnish voice] painike
-5. [English voice] close [Finnish voice] painike
-6. [English voice] close [Finnish voice] painike
-
-##### MacBook + VoiceOver + Opera + using VO-right arrow to move the reading cursor
-
-1. [Finnish voice] close, painike
-2. [Finnish voice] close, painike
-3. [English voice] close [Finnish voice] painike [English voice] close
-4. [English voice] close [Finnish voice] painike
-5. [English voice] close [Finnish voice] painike
-6. [English voice] close [Finnish voice] painike
-
-##### MacBook + VoiceOver + Opera + tabbing to move focus
-
-1. [Finnish voice] close, painike
-2. [Finnish voice] close, painike
-3. [English voice] close [Finnish voice] painike
-4. [English voice] close [Finnish voice] painike
-5. [English voice] close [Finnish voice] painike
-6. [English voice] close [Finnish voice] painike
-
-#### MacBook + VoiceOver + Edge
-
-- Edge version: 80.0.361.48
-
-##### MacBook + VoiceOver + Edge + letting the screenreader run
-
-1. [Finnish voice] close, painike
-2. [Finnish voice] close, painike
-3. [English voice] close [Finnish voice] painike, close
-4. [English voice] close [Finnish voice] painike
-5. [English voice] close [Finnish voice] painike, close
-6. [English voice] close [Finnish voice] painike
-
-##### MacBook + VoiceOver + Edge + using VO-right arrow to move the reading cursor
-
-1. [Finnish voice] close, painike
-2. [Finnish voice] close, painike
-3. [English voice] close [Finnish voice] painike [English voice] close
-4. [English voice] close [Finnish voice] painike
-5. [English voice] close [Finnish voice] painike, close
-6. [English voice] close [Finnish voice] painike
-
-##### MacBook + VoiceOver + Edge + tabbing to move focus
-
-1. [Finnish voice] close, painike
-2. [Finnish voice] close, painike
-3. [English voice] close [Finnish voice] painike
-4. [English voice] close [Finnish voice] painike
-5. [English voice] close [Finnish voice] painike, close
-6. [English voice] close [Finnish voice] painike
-
-### iPhone + VoiceOver
-
-- Device: iPhone 11
-- iOS version: 13.3
-
-#### iPhone + VoiceOver + Safari, Chrome, Firefox, Opera Touch, Edge
-
-- Chrome version: 79.0.3945.73
-- Safari version: 13.0
-- Firefox version: 20.2 (16690)
-- Opera Touch version: 2.0.4
-- Edge version: 44.10.13
-
-On iPhone, you can perform a simple gesture (by default, swipe up with one finger) to change VoiceOver language regardless of the OS language. When VoiceOver was in Finnish, everything was ready with a Finnish voice. When VoiceOver was in English, everything was read with an English voice.
-
-### Asus + NVDA
-
-- Device: Asus X540LA
-- Windows version: 10 Home 18362.418
-- NVDA version: 2019.3.1
-
-#### Asus + NVDA + Chrome
-
-- Chrome version: 80.0.3987.87
-
-##### Asus + NVDA + Chrome + letting the screen reader run
-
-With screen reader UI in Finnish and screen reader voice in Finnish:
-
-1. [Finnish voice] painike, close
-2. [Finnish voice] painike, close
-3. [Finnish voice] painike, close [English voice] close
-4. [Finnish voice] painike, close
-5. [Finnish voice] painike, close
-6. [Finnish voice] painike [English voice] close
-
-With screen reader UI in English and screen reader voice in Finnish:
-
-1. [Finnish voice] button, close
-2. [Finnish voice] button, close
-3. [Finnish voice] button, close [English voice] close
-4. [Finnish voice] button, close
-5. [Finnish voice] button, close
-6. [Finnish voice] button [English voice] close
-
-##### Asus + NVDA + Chrome + using down arrow to move reading cursor
-
-Cannot go directly to button, so we have to wait to hear the entire list item. It behaves as letting the screen reader run completely.
-
-##### Asus + NVDA + Chrome + tabbing to move focus
-
-With screen reader UI in Finnish and screen reader voice in Finnish:
-
-1. [Finnish voice] close painike
-2. [Finnish voice] close painike
-3. [Finnish voice] close painike
-4. [Finnish voice] close painike
-5. [Finnish voice] close painike
-6. [English voice] close [Finnish voice] painike
-
-With screen reader UI in English and screen reader voice in Finnish:
-
-1. [Finnish voice] close button
-2. [Finnish voice] close button
-3. [Finnish voice] close button
-4. [Finnish voice] close button
-5. [Finnish voice] close button
-6. [English voice] close [Finnish voice] button
-
-#### Asus + NVDA + Firefox
-
-- Firefox version: 72.0.2
-
-##### Asus + NVDA + Firefox + letting the screen reader run
-
-With screen reader UI in Finnish and screen reader voice in Finnish:
-
-1. [Finnish voice] painike [English voice] close
-2. [Finnish voice] painike [English voice] close
-3. [Finnish voice] painike [English voice] close, close
-4. [Finnish voice] painike [English voice] close
-5. [Finnish voice] painike [English voice] close
-6. [Finnish voice] painike [English voice] close
-
-With screen reader UI in English and screen reader voice in Finnish:
-
-1. [Finnish voice] button [English voice] close
-2. [Finnish voice] button [English voice] close
-3. [Finnish voice] button [English voice] close, close
-4. [Finnish voice] button [English voice] close
-5. [Finnish voice] button [English voice] close
-6. [Finnish voice] button [English voice] close
-
-##### Asus + NVDA + Firefox + using down arrow to move reading cursor
-
-Cannot go directly to button, so we have to wait to hear the entire list item. It behaves as letting the screen reader run completely.
-
-##### Asus + NVDA + Firefox + tabbing to move focus
-
-With screen reader UI in Finnish and screen reader voice in Finnish:
-
-1. [English voice] close [Finnish voice] painike
-2. [English voice] close [Finnish voice] painike
-3. [English voice] close [Finnish voice] painike
-4. [English voice] close [Finnish voice] painike
-5. [English voice] close [Finnish voice] painike
-6. [English voice] close [Finnish voice] painike
-
-With screen reader UI in English and screen reader voice in Finnish:
-
-1. [English voice] close [Finnish voice] button
-2. [English voice] close [Finnish voice] button
-3. [English voice] close [Finnish voice] button
-4. [English voice] close [Finnish voice] button
-5. [English voice] close [Finnish voice] button
-6. [English voice] close [Finnish voice] button
-
-#### Asus + NVDA + Opera
-
-- Opera version: 66.0.3515.72
-
-##### Asus + NVDA + Opera + letting the screen reader run
-
-With screen reader UI in Finnish and screen reader voice in Finnish:
-
-1. [Finnish voice] painike, close
-2. [Finnish voice] painike, close
-3. [Finnish voice] painike, close [English voice] close
-4. [Finnish voice] painike, close
-5. [Finnish voice] painike, close
-6. [Finnish voice] painike [English voice] close
-
-With screen reader UI in English and screen reader voice in Finnish:
-
-1. [Finnish voice] button, close
-2. [Finnish voice] button, close
-3. [Finnish voice] button, close [English voice] close
-4. [Finnish voice] button, close
-5. [Finnish voice] button, close
-6. [Finnish voice] button [English voice] close
-
-##### Asus + NVDA + Opera + using down arrow to move reading cursor
-
-Cannot go directly to button, so we have to wait to hear the entire list item. It behaves as letting the screen reader run completely.
-
-##### Asus + NVDA + Opera + tabbing to move focus
-
-With screen reader UI in Finnish and screen reader voice in Finnish:
-
-1. [Finnish voice] close painike
-2. [Finnish voice] close painike
-3. [Finnish voice] close painike
-4. [Finnish voice] close painike
-5. [Finnish voice] close painike
-6. [English voice] close [Finnish voice] painike
-
-With screen reader UI in English and screen reader voice in Finnish:
-
-1. [Finnish voice] close button
-2. [Finnish voice] close button
-3. [Finnish voice] close button
-4. [Finnish voice] close button
-5. [Finnish voice] close button
-6. [English voice] close [Finnish voice] button
-
-#### Asus + NVDA + Edge
-
-- Edge version: 80.0.361.50
-
-##### Asus + NVDA + Edge + letting the screen reader run
-
-With screen reader UI in Finnish and screen reader voice in Finnish:
-
-1. [Finnish voice] painike, close
-2. [Finnish voice] painike, close
-3. [Finnish voice] painike, close [English voice] close
-4. [Finnish voice] painike, close
-5. [Finnish voice] painike, close
-6. [Finnish voice] painike [English voice] close
-
-With screen reader UI in English and screen reader voice in Finnish:
-
-1. [Finnish voice] button, close
-2. [Finnish voice] button, close
-3. [Finnish voice] button, close [English voice] close
-4. [Finnish voice] button, close
-5. [Finnish voice] button, close
-6. [Finnish voice] button [English voice] close
-
-##### Asus + NVDA + Edge + using down arrow to move reading cursor
-
-Cannot go directly to button, so we have to wait to hear the entire list item. It behaves as letting the screen reader run completely.
-
-##### Asus + NVDA + Edge + tabbing to move focus
-
-With screen reader UI in Finnish and screen reader voice in Finnish:
-
-1. [Finnish voice] close painike
-2. [Finnish voice] close painike
-3. [Finnish voice] close painike
-4. [Finnish voice] close painike
-5. [Finnish voice] close painike
-6. [English voice] close [Finnish voice] painike
-
-With screen reader UI in English and screen reader voice in Finnish:
-
-1. [Finnish voice] close, button
-2. [Finnish voice] close, button
-3. [Finnish voice] close, button
-4. [Finnish voice] close, button
-5. [Finnish voice] close, button
-6. [English voice] close [Finnish voice] button
-
-### Asus + JAWS
-
-- Device: Asus X540LA
-- Windows version: 10 Home 18362.418
-- JAWS version: 2019.1912.9 Multilingual
-- JAWS with "Language Detect Change" selected
-
-#### Asus + JAWS + Chrome
-
-- Chrome version: 80.0.3987.87
-
-##### Asus + JAWS + Chrome + letting the screen reader run
-
-With screen reader UI in Finnish and screen reader voice in Finnish:
-
-1. [English voice] close painike
-2. [English voice] close painike
-3. [English voice] close painike, close
-4. [English voice] close painike
-5. [English voice] close painike
-6. [English voice] close painike
-
-With screen reader UI in English and screen reader voice in Finnish:
-
-1. [English voice] close button
-2. [English voice] close button
-3. [English voice] close button, close
-4. [English voice] close button
-5. [English voice] close button
-6. [English voice] close button
-
-##### Asus + JAWS + Chrome + using the down arrow to move the reading cursor
-
-With screen reader UI in Finnish and screen reader voice in Finnish:
-
-1. [English voice] close painike
-2. [English voice] close painike
-3. [English voice] close painike, close
-4. [English voice] close painike
-5. [English voice] close painike
-6. [English voice] close painike
-
-With screen reader UI in English and screen reader voice in Finnish:
-
-1. [English voice] close button
-2. [English voice] close button
-3. [English voice] close button, close
-4. [English voice] close button
-5. [English voice] close button
-6. [English voice] close button
-
-##### Asus + JAWS + Chrome + tabbing to move focus
-
-With screen reader UI in Finnish and screen reader voice in Finnish:
-
-1. [English voice] close [Finnish voice] painike
-2. [English voice] close [Finnish voice] painike
-3. [English voice] close [Finnish voice] painike
-4. [English voice] close [Finnish voice] painike
-5. [English voice] close [Finnish voice] painike
-6. [English voice] close [Finnish voice] painike
-
-With screen reader UI in English and screen reader voice in Finnish:
-
-1. [English voice] close button
-2. [English voice] close button
-3. [English voice] close button
-4. [English voice] close button
-5. [English voice] close button
-6. [English voice] close button
-
-#### Asus + JAWS + Firefox
-
-- Firefox version: 72.0.2
-
-##### Asus + JAWS + Firefox + letting the screen reader run
-
-With screen reader UI in Finnish and screen reader voice in Finnish:
-
-1. [English voice] close painike
-2. [English voice] close painike
-3. [English voice] close painike, close
-4. [English voice] close painike
-5. [English voice] close painike
-6. [English voice] close painike
-
-With screen reader UI in English and screen reader voice in Finnish:
-
-1. [English voice] close button
-2. [English voice] close button
-3. [English voice] close button, close
-4. [English voice] close button
-5. [English voice] close button
-6. [English voice] close button
-
-##### Asus + JAWS + Firefox + using down arrow to move the reading cursor
-
-With screen reader UI in Finnish and screen reader voice in Finnish:
-
-1. [English voice] close painike
-2. [English voice] close painike
-3. [English voice] close painike, close
-4. [English voice] close painike [silence]
-5. [English voice] close painike
-6. [English voice] close painike
-
-With screen reader UI in English and screen reader voice in Finnish:
-
-1. [English voice] close button
-2. [English voice] close button
-3. [English voice] close button, close
-4. [English voice] close button, blank
-5. [English voice] close button
-6. [English voice] close button
-
-##### Asus + JAWS + Firefox + tabbing to move focus
-
-With screen reader UI in Finnish and screen reader voice in Finnish:
-
-1. [English voice] close [Finnish voice] painike
-2. [English voice] close [Finnish voice] painike
-3. [English voice] close [Finnish voice] painike
-4. [English voice] close [Finnish voice] painike
-5. [English voice] close [Finnish voice] painike
-6. [English voice] close [Finnish voice] painike
-
-With screen reader UI in English and screen reader voice in Finnish:
-
-1. [English voice] close button
-2. [English voice] close button
-3. [English voice] close button
-4. [English voice] close button
-5. [English voice] close button
-6. [English voice] close button
-
-#### Asus + JAWS + Opera
-
-- Opera version: 66.0.3515.72
-
-##### Asus + JAWS + Opera + letting the screen reader run
-
-With screen reader UI in Finnish and screen reader voice in Finnish:
-
-1. [English voice] close painike
-2. [English voice] close painike
-3. [English voice] close painike, close
-4. [English voice] close painike
-5. [English voice] close painike
-6. [English voice] close painike
-
-With screen reader UI in English and screen reader voice in Finnish:
-
-1. [English voice] close button
-2. [English voice] close button
-3. [English voice] close button, close
-4. [English voice] close button
-5. [English voice] close button
-6. [English voice] close button
-
-##### Asus + JAWS + Opera + using down arrow to move the reading cursor
-
-With screen reader UI in Finnish and screen reader voice in Finnish:
-
-1. [English voice] close painike
-2. [English voice] close painike
-3. [English voice] close painike, close
-4. [English voice] close painike
-5. [English voice] close painike
-6. [English voice] close painike
-
-With screen reader UI in English and screen reader voice in Finnish:
-
-1. [English voice] close button
-2. [English voice] close button
-3. [English voice] close button, close
-4. [English voice] close button, blank
-5. [English voice] close button
-6. [English voice] close button
-
-##### Asus + JAWS + Opera + tabbing to move focus
-
-With screen reader UI in Finnish and screen reader voice in Finnish:
-
-1. [English voice] close [Finnish voice] painike
-2. [English voice] close [Finnish voice] painike
-3. [English voice] close [Finnish voice] painike
-4. [English voice] close [Finnish voice] painike
-5. [English voice] close [Finnish voice] painike
-6. [English voice] close [Finnish voice] painike
-
-With screen reader UI in English and screen reader voice in Finnish:
-
-1. [English voice] close button
-2. [English voice] close button
-3. [English voice] close button
-4. [English voice] close button
-5. [English voice] close button
-6. [English voice] close button
-
-#### Asus + JAWS + Edge
-
-- Edge version: 80.0.361.50
-
-##### Asus + JAWS + Edge + letting the screen reader run
-
-With screen reader UI in Finnish and screen reader voice in Finnish:
-
-1. [English voice] close painike
-2. [English voice] close painike
-3. [English voice] close painike, close
-4. [English voice] close painike
-5. [English voice] close painike
-6. [English voice] close painike
-
-With screen reader UI in English and screen reader voice in Finnish:
-
-1. [English voice] close button
-2. [English voice] close button
-3. [English voice] close button, close
-4. [English voice] close button
-5. [English voice] close button
-6. [English voice] close button
-
-##### Asus + JAWS + Edge + using down arrow to move the reading cursor
-
-With screen reader UI in Finnish and screen reader voice in Finnish:
-
-1. [English voice] close painike
-2. [English voice] close painike
-3. [English voice] close painike, close
-4. [English voice] close painike
-5. [English voice] close painike
-6. [English voice] close painike
-
-With screen reader UI in English and screen reader voice in Finnish:
-
-1. [English voice] close button
-2. [English voice] close button
-3. [English voice] close button, close
-4. [English voice] close button
-5. [English voice] close button
-6. [English voice] close button
-
-##### Asus + JAWS + Edge + tabbing to move focus
-
-With screen reader UI in Finnish and screen reader voice in Finnish:
-
-1. [Finnish voice] This button has `aria-label`: [English voice] close [Finnish voice] painike
-2. [Finnish voice] This button has `aria-label` and an explicit `lang` attribute: [English voice] close [Finnish voice] painike
-3. [Finnish voice] This button has `aria-labelledby`, and the visually-hidden label is outside: [English voice] close [Finnish voice] painike
-4. [Finnish voice] This button has `aria-labelledby`, and the `aria-hidden` and visually-hidden label is outside: [English voice] close [Finnish voice] painike
-5. [Finnish voice] This button has `aria-labelledby`, and the visually-hidden label is inside: [English voice] close [Finnish voice] painike
-6. [Finnish voice] This button has a visually-hidden label inside: [English voice] close [Finnish voice] painike
-
-With screen reader UI in English and screen reader voice in Finnish:
-
-1. [English voice] This button has `aria-label`: close button
-2. [English voice] This button has `aria-label` and an explicit `lang` attribute: close button
-3. [English voice] This button has `aria-labelledby`, and the visually-hidden label is outside: close button
-4. [English voice] This button has `aria-labelledby`, and the `aria-hidden` and visually-hidden label is outside: close button
-5. [English voice] This button has `aria-labelledby`, and the visually-hidden label is inside: close button
-6. [English voice] This button has a visually-hidden label inside: close button
-
-### Samsung + TalkBack
-
-- Device: Samsung Galaxy S8+
-- OS: Android 9 Build/PPR1.180610.011
-- TalkBack version: 8.1.0.278818032
-
-#### Samsung + TalkBack + Chrome
-
-- Chrome version: 80.0.3987.99
-
-##### Samsung + TalkBack + Chrome + letting the screen reader run
-
-1. [English voice] close button
-2. [English voice] close button
-3. [English voice] close button, close
-4. [English voice] close button
-5. [English voice] close button
-6. [English voice] close button
-
-##### Samsung + TalkBack + Chrome + swiping right to move reading pointer
-
-1. [English voice] close button
-2. [English voice] close button
-3. [English voice] close button, close
-4. [English voice] close button
-5. [English voice] close button
-6. [English voice] close button
-
-#### Samsung + TalkBack + Firefox
-
-- Firefox version: 68.5.0
-
-##### Samsung + TalkBack + Firefox + letting the screen reader run
-
-1. [Finnish voice] close painike
-2. [Finnish voice] close painike
-3. [Finnish voice] close painike, close
-4. [Finnish voice] close painike
-5. [Finnish voice] close painike
-6. [Finnish voice] close painike
-
-##### Samsung + TalkBack + Firefox + swiping right to move reading pointer
-
-1. [Finnish voice] close painike
-2. [Finnish voice] close painike
-3. [Finnish voice] close painike, close
-4. [Finnish voice] close painike
-5. [Finnish voice] close painike
-6. [Finnish voice] close painike
-
-#### Samsung + TalkBack + Opera Touch
-
-- Opera version: 2.3.0
-
-##### Samsung + TalkBack + Opera + letting the screen reader run
-
-1. [English voice] close [Finnish voice] painike
-2. [English voice] close [Finnish voice] painike
-3. [English voice] close [Finnish voice] painike [English voice] close
-4. [English voice] close [Finnish voice] painike
-5. [English voice] close [Finnish voice] painike
-6. [English voice] close [Finnish voice] painike
-
-##### Samsung + TalkBack + Opera + swiping right to move reading pointer
-
-1. [English voice] close [Finnish voice] painike
-2. [English voice] close [Finnish voice] painike
-3. [English voice] close [Finnish voice] painike [English voice] close
-4. [English voice] close [Finnish voice] painike
-5. [English voice] close [Finnish voice] painike
-6. [English voice] close [Finnish voice] painike
-
-#### Samsung + TalkBack + Edge
-
-- Edge version: 44.11.4.4140
-
-##### Samsung + TalkBack + Edge + letting the screen reader run
-
-1. [English voice] close [Finnish voice] painike
-2. [English voice] close [Finnish voice] painike
-3. [English voice] close [Finnish voice] painike [English voice] close
-4. [English voice] close [Finnish voice] painike
-5. [English voice] close [Finnish voice] painike
-6. [English voice] close [Finnish voice] painike
-
-##### Samsung + TalkBack + Edge + swiping right to move reading pointer
-
-1. [English voice] close [Finnish voice] painike
-2. [English voice] close [Finnish voice] painike
-3. [English voice] close [Finnish voice] painike [English voice] close
-4. [English voice] close [Finnish voice] painike
-5. [English voice] close [Finnish voice] painike
-6. [English voice] close [Finnish voice] painike
+When information is conveyed by visual means (for example, an "X" icon to indicate a Close button), we must provide an accessible label: an equivalent text alternative that can be annouced by screen readers.
+
+Screen readers don't always perform well in multiple languages (for example, when the OS or screen reader UI is in one language, and the web content is in another). There are multiple challenges in this matter, but this experiment was specifically designed to figure out what's the best way to provide text alternatives for elements that don't support an `alt` attribute.
+
+## TL;DR
+
+Put the text alternatives a `<span>` element or similar, and put that **inside** the element in question. Then use CSS to hide it **visually** (do not use `display: none` or `visibility: hidden`, those hide it from screen readers too).
+
+## Setup
+
+I compared the following 6 approaches:
+A. Using `aria-label`.
+B. Using `aria-label` and an explicit `lang` attribute.
+C. Using `aria-labelledby` and referring to a visually-hidden label outside the labelled element.
+D. Using `aria-labelledby` and referring to a visually-hidden and `aria-hidden` label outside the labelled element.
+E. Using `aria-labelledby` and referring to a visually-hidden label inside the labelled element.
+F. Using a visually hidden label inside the labelled element.
+
+...using 4 major screen readers (VoiceOver, NVDA, JAWS, TalkBack)
+...on 5 major browsers (Safari, Chrome, Firefox, Opera / Opera Touch, Edge)
+...on desktop and mobile
+...in 3 modes (continous reading, using keyboard or swiping shortcuts to move the reading cursor, tabbing to move focus)
+
+## Results
+
+- For each test case, I recorded how and with what voice (Finnish or English) the screen reader announces the button. Check out [data.md](data.md)!
+
+- I gave scores for each test case. Check out [the Google spreadsheet](https://docs.google.com/spreadsheets/d/19fpze-03_JEFtm7MKrQM8XehMAQe3T6o2W5BM-zx4AY/), on the "Scores" tab:
+
+  - 3: Perfect announcement
+    - Example 1: [English voice] close button
+    - Example 2: [English voice] close [Finnish voice] painike
+  - 2: The voices and languages are matched correctly, but there's some small issue
+    - Example: [English voice] close [Finnish voice] painike, close
+  - 1: The accessible label is announced in the right voice, but the name of the element is announced in the wrong voice
+    - Example: [English voice] close, painike
+  - 0: the accessible label is announced in the wrong voice
+    - Example: [Finnish voice] close, painike
+
+- I calculated the mean score for of the 6 approaches. Check out [the Google spreadsheet](https://docs.google.com/spreadsheets/d/19fpze-03_JEFtm7MKrQM8XehMAQe3T6o2W5BM-zx4AY/), on the "Analysis" tab.
+  - On the overall analysis, option F was the best, scoring 2.2 out of 3
+  - Since in some cases the score was uniform accross approaches (in all likelihood due to poor interaction between the screen reader and browser being tested, rather than to the approach itself), I repeated the analysis exclusing these cases. Option F was still the best, scoring 2.9 out of 3.
+
+## Testing site
+
+[Check it out on GitHub pages](https://xurxe.github.io/accessible-labelling-experiment/)!
+
+## Testing environment
+
+- Website language: English
+- OS language: Finnish
+- VoiceOver (desktop):
+
+  - Device: MacBook Pro (16-inch, 2019)
+  - macOS version: 10.15.2
+  - VoiceOver: included with macOS
+  - Safari version: 13.0.4
+  - Chrome version: 79.0.3945.130
+  - Firefox version: 72.0.2
+  - Opera version: 66.0.3515.72
+  - Edge version: 80.0.361.48
+
+- VoiceOver (mobile):
+
+  - Device: iPhone 11
+  - iOS version: 13.3
+  - VoiceOver: included with iOS
+  - Safari version: 13.0
+  - Chrome version: 79.0.3945.73
+  - Firefox version: 20.2 (16690)
+  - Opera Touch version: 2.0.4
+  - Edge version: 44.10.13
+
+- NVDA
+
+  - Device: Asus X540LA
+  - Windows version: 10 Home 18362.418
+  - NVDA version: 2019.3.1
+  - Safari version: N/A (not maintained)
+  - Chrome version: 80.0.3987.87
+  - Firefox version: 72.0.2
+  - Opera version: 66.0.3515.72
+  - Edge version: 80.0.361.50
+
+- JAWS
+
+  - Device: Asus X540LA
+  - Windows version: 10 Home 18362.418
+  - JAWS version: 2019.1912.9 Multilingual
+  - JAWS with "Language Detect Change" selected
+  - Safari version: N/A (not maintained)
+  - Chrome version: 80.0.3987.87
+  - Firefox version: 72.0.2
+  - Opera version: 66.0.3515.72
+  - Edge version: 80.0.361.50
+
+- TalkBack
+
+  - Device: Samsung Galaxy S8+
+  - OS: Android 9 Build/PPR1.180610.011
+  - TalkBack version: 8.1.0.278818032
+  - Safari version: N/A (not maintained)
+  - Chrome version: 80.0.3987.99
+  - Firefox version: 68.5.0
+  - Opera Touch version: 2.3.0
+  - Edge version: 44.11.4.4140
 
 ## Author
 

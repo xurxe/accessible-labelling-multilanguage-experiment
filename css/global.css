@@ -6,6 +6,10 @@
   font-size: 40px;
 }
 
+ol {
+  list-style-type: upper-alpha;
+}
+
 li {
   margin-bottom: 1em;
 }
