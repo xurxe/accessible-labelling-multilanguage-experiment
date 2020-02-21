@@ -1,4 +1,4 @@
-# Accessible labelling experiment
+# Accessible labelling multilanguage experiment
 
 Just a little experiment on how screen readers handle languages and different ways of providing accessible labels to elements.
 
@@ -52,7 +52,7 @@ F. Using a visually hidden label inside the labelled element.
 
 - I calculated the mean score for of the 6 approaches. Check out [the Google spreadsheet](https://docs.google.com/spreadsheets/d/19fpze-03_JEFtm7MKrQM8XehMAQe3T6o2W5BM-zx4AY/), on the "Analysis" tab.
   - On the overall analysis, option F was the best, scoring 2.2 out of 3
-  - Since in some cases the score was uniform accross approaches (in all likelihood due to poor interaction between the screen reader and browser being tested, rather than to the approach itself), I repeated the analysis exclusing these cases. Option F was still the best, scoring 2.9 out of 3.
+  - Since in some cases the score was uniform accross approaches (in all likelihood due to poor interaction between the screen reader and browser being tested, rather than to the approach itself), I repeated the analysis excluding these cases. Option F was still the best, scoring 2.9 out of 3.
 
 ## Testing site
 
@@ -125,7 +125,3 @@ Xurxe Toivo García
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-Coming soon.
