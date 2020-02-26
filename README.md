@@ -56,7 +56,7 @@ F. Using a visually hidden label inside the labelled element.
 
 ## Testing site
 
-[Check it out on GitHub pages](https://xurxe.github.io/accessible-labelling-experiment/)!
+[Check it out on GitHub pages](https://xurxe.github.io/accessible-labelling-multilanguage-experiment/)!
 
 ## Testing environment
 
