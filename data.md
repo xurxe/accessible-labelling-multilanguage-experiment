@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD033 -->
+
 # Data
 
 All tests done with website in English and OS in Finnish.
@@ -13,45 +15,36 @@ All tests done with website in English and OS in Finnish.
 
 #### MacBook + VoiceOver + Safari + continuous reading
 
-A. [Finnish voice] close, painike
-
-B. [Finnish voice] close, painike
-
-C. [Finnish voice] close, painike, close
-
-D. [Finnish voice] close, painike
-
-E. [Finnish voice] close, painike
-
-F. [English voice] close [Finnish voice] painike
+<ol type="A">
+  <li>[Finnish voice] close, painike</li>
+  <li>[Finnish voice] close, painike</li>
+  <li>[Finnish voice] close, painike, close</li>
+  <li>[Finnish voice] close, painike</li>
+  <li>[Finnish voice] close, painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+</ol>
 
 #### MacBook + VoiceOver + Safari + using VO-right arrow to move the reading cursor
 
-A. [Finnish voice] close, painike
-
-B. [Finnish voice] close, painike
-
-C. [English voice] close [Finnish voice] painike [English voice] close
-
-D. [Finnish voice] close, painike
-
-E. [Finnish voice] close, painike
-
-F. [English voice] close [Finnish voice] painike
+<ol type="A">
+  <li>[Finnish voice] close, painike</li>
+  <li>[Finnish voice] close, painike</li>
+  <li>[English voice] close [Finnish voice] painike [English voice] close</li>
+  <li>[Finnish voice] close, painike</li>
+  <li>[Finnish voice] close, painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+</ol>
 
 #### MacBook + VoiceOver + Safari + tabbing to move focus
 
-A. [Finnish voice] close, painike
-
-B. [Finnish voice] close, painike
-
-C. [English voice] close [Finnish voice] painike
-
-D. [Finnish voice] close, painike
-
-E. [Finnish voice] close, painike
-
-F. [English voice] close [Finnish voice] painike
+<ol type="A">
+  <li>[Finnish voice] close, painike</li>
+  <li>[Finnish voice] close, painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[Finnish voice] close, painike</li>
+  <li>[Finnish voice] close, painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+</ol>
 
 ### MacBook + VoiceOver + Chrome
 
@@ -59,45 +52,36 @@ F. [English voice] close [Finnish voice] painike
 
 #### MacBook + VoiceOver + Chrome + continuous reading
 
-A. [Finnish voice] close, painike
-
-B. [Finnish voice] close, painike
-
-C. [English voice] close [Finnish voice] painike, close
-
-D. [English voice] close [Finnish voice] painike
-
-E. [English voice] close [Finnish voice] painike
-
-F. [English voice] close [Finnish voice] painike
+<ol type="A">
+  <li>[Finnish voice] close, painike</li>
+  <li>[Finnish voice] close, painike</li>
+  <li>[English voice] close [Finnish voice] painike, close</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+</ol>
 
 #### MacBook + VoiceOver + Chrome + using VO-right arrow to move the reading cursor
 
-A. [Finnish voice] close, painike
-
-B. [Finnish voice] close, painike
-
-C. [English voice] close [Finnish voice] painike [English voice] close
-
-D. [English voice] close [Finnish voice] painike
-
-E. [English voice] close [Finnish voice] painike
-
-F. [English voice] close [Finnish voice] painike
+<ol type="A">
+  <li>[Finnish voice] close, painike</li>
+  <li>[Finnish voice] close, painike</li>
+  <li>[English voice] close [Finnish voice] painike [English voice] close</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+</ol>
 
 #### MacBook + VoiceOver + Chrome + tabbing to move focus
 
-A. [Finnish voice] close, painike
-
-B. [Finnish voice] close, painike
-
-C. [English voice] close [Finnish voice] painike
-
-D. [English voice] close [Finnish voice] painike
-
-E. [English voice] close [Finnish voice] painike
-
-F. [English voice] close [Finnish voice] painike
+<ol type="A">
+  <li>[Finnish voice] close, painike</li>
+  <li>[Finnish voice] close, painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+</ol>
 
 ### MacBook + VoiceOver + Firefox
 
@@ -111,45 +95,36 @@ VoiceOver and Firefox didn't really work together in this set up.
 
 #### MacBook + VoiceOver + Opera + continuous reading
 
-A. [Finnish voice] close, painike
-
-B. [Finnish voice] close, painike
-
-C. [English voice] close [Finnish voice] painike, close
-
-D. [English voice] close [Finnish voice] painike
-
-E. [English voice] close [Finnish voice] painike
-
-F. [English voice] close [Finnish voice] painike
+<ol type="A">
+  <li>[Finnish voice] close, painike</li>
+  <li>[Finnish voice] close, painike</li>
+  <li>[English voice] close [Finnish voice] painike, close</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+</ol>
 
 #### MacBook + VoiceOver + Opera + using VO-right arrow to move the reading cursor
 
-A. [Finnish voice] close, painike
-
-B. [Finnish voice] close, painike
-
-C. [English voice] close [Finnish voice] painike [English voice] close
-
-D. [English voice] close [Finnish voice] painike
-
-E. [English voice] close [Finnish voice] painike
-
-F. [English voice] close [Finnish voice] painike
+<ol type="A">
+  <li>[Finnish voice] close, painike</li>
+  <li>[Finnish voice] close, painike</li>
+  <li>[English voice] close [Finnish voice] painike [English voice] close</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+</ol>
 
 #### MacBook + VoiceOver + Opera + tabbing to move focus
 
-A. [Finnish voice] close, painike
-
-B. [Finnish voice] close, painike
-
-C. [English voice] close [Finnish voice] painike
-
-D. [English voice] close [Finnish voice] painike
-
-E. [English voice] close [Finnish voice] painike
-
-F. [English voice] close [Finnish voice] painike
+<ol type="A">
+  <li>[Finnish voice] close, painike</li>
+  <li>[Finnish voice] close, painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+</ol>
 
 ### MacBook + VoiceOver + Edge
 
@@ -157,45 +132,36 @@ F. [English voice] close [Finnish voice] painike
 
 #### MacBook + VoiceOver + Edge + continuous reading
 
-A. [Finnish voice] close, painike
-
-B. [Finnish voice] close, painike
-
-C. [English voice] close [Finnish voice] painike, close
-
-D. [English voice] close [Finnish voice] painike
-
-E. [English voice] close [Finnish voice] painike, close
-
-F. [English voice] close [Finnish voice] painike
+<ol type="A">
+  <li>[Finnish voice] close, painike</li>
+  <li>[Finnish voice] close, painike</li>
+  <li>[English voice] close [Finnish voice] painike, close</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike, close</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+</ol>
 
 #### MacBook + VoiceOver + Edge + using VO-right arrow to move the reading cursor
 
-A. [Finnish voice] close, painike
-
-B. [Finnish voice] close, painike
-
-C. [English voice] close [Finnish voice] painike [English voice] close
-
-D. [English voice] close [Finnish voice] painike
-
-E. [English voice] close [Finnish voice] painike, close
-
-F. [English voice] close [Finnish voice] painike
+<ol type="A">
+  <li>[Finnish voice] close, painike</li>
+  <li>[Finnish voice] close, painike</li>
+  <li>[English voice] close [Finnish voice] painike [English voice] close</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike, close</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+</ol>
 
 #### MacBook + VoiceOver + Edge + tabbing to move focus
 
-A. [Finnish voice] close, painike
-
-B. [Finnish voice] close, painike
-
-C. [English voice] close [Finnish voice] painike
-
-D. [English voice] close [Finnish voice] painike
-
-E. [English voice] close [Finnish voice] painike, close
-
-F. [English voice] close [Finnish voice] painike
+<ol type="A">
+  <li>[Finnish voice] close, painike</li>
+  <li>[Finnish voice] close, painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike, close</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+</ol>
 
 ## iPhone + VoiceOver
 
@@ -226,31 +192,25 @@ On iPhone, you can perform a simple gesture (by default, swipe up with one finge
 
 With screen reader UI in Finnish and screen reader voice in Finnish:
 
-A. [Finnish voice] painike, close
-
-B. [Finnish voice] painike, close
-
-C. [Finnish voice] painike, close [English voice] close
-
-D. [Finnish voice] painike, close
-
-E. [Finnish voice] painike, close
-
-F. [Finnish voice] painike [English voice] close
+<ol type="A">
+  <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike, close [English voice] close</li>
+  <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike [English voice] close</li>
+</ol>
 
 With screen reader UI in English and screen reader voice in Finnish:
 
-A. [Finnish voice] button, close
-
-B. [Finnish voice] button, close
-
-C. [Finnish voice] button, close [English voice] close
-
-D. [Finnish voice] button, close
-
-E. [Finnish voice] button, close
-
-F. [Finnish voice] button [English voice] close
+<ol type="A">
+  <li>[Finnish voice] button, close</li>
+  <li>[Finnish voice] button, close</li>
+  <li>[Finnish voice] button, close [English voice] close</li>
+  <li>[Finnish voice] button, close</li>
+  <li>[Finnish voice] button, close</li>
+  <li>[Finnish voice] button [English voice] close</li>
+</ol>
 
 #### Asus + NVDA + Chrome + using down arrow to move reading cursor
 
@@ -260,31 +220,25 @@ Cannot go directly to button, so we have to wait to hear the entire list item. I
 
 With screen reader UI in Finnish and screen reader voice in Finnish:
 
-A. [Finnish voice] close painike
-
-B. [Finnish voice] close painike
-
-C. [Finnish voice] close painike
-
-D. [Finnish voice] close painike
-
-E. [Finnish voice] close painike
-
-F. [English voice] close [Finnish voice] painike
+<ol type="A">
+  <li>[Finnish voice] close painike</li>
+  <li>[Finnish voice] close painike</li>
+  <li>[Finnish voice] close painike</li>
+  <li>[Finnish voice] close painike</li>
+  <li>[Finnish voice] close painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+</ol>
 
 With screen reader UI in English and screen reader voice in Finnish:
 
-A. [Finnish voice] close button
-
-B. [Finnish voice] close button
-
-C. [Finnish voice] close button
-
-D. [Finnish voice] close button
-
-E. [Finnish voice] close button
-
-F. [English voice] close [Finnish voice] button
+<ol type="A">
+  <li>[Finnish voice] close button</li>
+  <li>[Finnish voice] close button</li>
+  <li>[Finnish voice] close button</li>
+  <li>[Finnish voice] close button</li>
+  <li>[Finnish voice] close button</li>
+  <li>[English voice] close [Finnish voice] button</li>
+</ol>
 
 ### Asus + NVDA + Firefox
 
@@ -294,31 +248,25 @@ F. [English voice] close [Finnish voice] button
 
 With screen reader UI in Finnish and screen reader voice in Finnish:
 
-A. [Finnish voice] painike [English voice] close
-
-B. [Finnish voice] painike [English voice] close
-
-C. [Finnish voice] painike [English voice] close, close
-
-D. [Finnish voice] painike [English voice] close
-
-E. [Finnish voice] painike [English voice] close
-
-F. [Finnish voice] painike [English voice] close
+<ol type="A">
+  <li>[Finnish voice] painike [English voice] close</li>
+  <li>[Finnish voice] painike [English voice] close</li>
+  <li>[Finnish voice] painike [English voice] close, close</li>
+  <li>[Finnish voice] painike [English voice] close</li>
+  <li>[Finnish voice] painike [English voice] close</li>
+  <li>[Finnish voice] painike [English voice] close</li>
+</ol>
 
 With screen reader UI in English and screen reader voice in Finnish:
 
-A. [Finnish voice] button [English voice] close
-
-B. [Finnish voice] button [English voice] close
-
-C. [Finnish voice] button [English voice] close, close
-
-D. [Finnish voice] button [English voice] close
-
-E. [Finnish voice] button [English voice] close
-
-F. [Finnish voice] button [English voice] close
+<ol type="A">
+  <li>[Finnish voice] button [English voice] close</li>
+  <li>[Finnish voice] button [English voice] close</li>
+  <li>[Finnish voice] button [English voice] close, close</li>
+  <li>[Finnish voice] button [English voice] close</li>
+  <li>[Finnish voice] button [English voice] close</li>
+  <li>[Finnish voice] button [English voice] close</li>
+</ol>
 
 #### Asus + NVDA + Firefox + using down arrow to move reading cursor
 
@@ -328,31 +276,25 @@ Cannot go directly to button, so we have to wait to hear the entire list item. I
 
 With screen reader UI in Finnish and screen reader voice in Finnish:
 
-A. [English voice] close [Finnish voice] painike
-
-B. [English voice] close [Finnish voice] painike
-
-C. [English voice] close [Finnish voice] painike
-
-D. [English voice] close [Finnish voice] painike
-
-E. [English voice] close [Finnish voice] painike
-
-F. [English voice] close [Finnish voice] painike
+<ol type="A">
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+</ol>
 
 With screen reader UI in English and screen reader voice in Finnish:
 
-A. [English voice] close [Finnish voice] button
-
-B. [English voice] close [Finnish voice] button
-
-C. [English voice] close [Finnish voice] button
-
-D. [English voice] close [Finnish voice] button
-
-E. [English voice] close [Finnish voice] button
-
-F. [English voice] close [Finnish voice] button
+<ol type="A">
+  <li>[English voice] close [Finnish voice] button</li>
+  <li>[English voice] close [Finnish voice] button</li>
+  <li>[English voice] close [Finnish voice] button</li>
+  <li>[English voice] close [Finnish voice] button</li>
+  <li>[English voice] close [Finnish voice] button</li>
+  <li>[English voice] close [Finnish voice] button</li>
+</ol>
 
 ### Asus + NVDA + Opera
 
@@ -362,31 +304,25 @@ F. [English voice] close [Finnish voice] button
 
 With screen reader UI in Finnish and screen reader voice in Finnish:
 
-A. [Finnish voice] painike, close
-
-B. [Finnish voice] painike, close
-
-C. [Finnish voice] painike, close [English voice] close
-
-D. [Finnish voice] painike, close
-
-E. [Finnish voice] painike, close
-
-F. [Finnish voice] painike [English voice] close
+<ol type="A">
+  <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike, close [English voice] close</li>
+  <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike [English voice] close</li>
+</ol>
 
 With screen reader UI in English and screen reader voice in Finnish:
 
-A. [Finnish voice] button, close
-
-B. [Finnish voice] button, close
-
-C. [Finnish voice] button, close [English voice] close
-
-D. [Finnish voice] button, close
-
-E. [Finnish voice] button, close
-
-F. [Finnish voice] button [English voice] close
+<ol type="A">
+  <li>[Finnish voice] button, close</li>
+  <li>[Finnish voice] button, close</li>
+  <li>[Finnish voice] button, close [English voice] close</li>
+  <li>[Finnish voice] button, close</li>
+  <li>[Finnish voice] button, close</li>
+  <li>[Finnish voice] button [English voice] close</li>
+</ol>
 
 #### Asus + NVDA + Opera + using down arrow to move reading cursor
 
@@ -396,31 +332,25 @@ Cannot go directly to button, so we have to wait to hear the entire list item. I
 
 With screen reader UI in Finnish and screen reader voice in Finnish:
 
-A. [Finnish voice] close painike
-
-B. [Finnish voice] close painike
-
-C. [Finnish voice] close painike
-
-D. [Finnish voice] close painike
-
-E. [Finnish voice] close painike
-
-F. [English voice] close [Finnish voice] painike
+<ol type="A">
+  <li>[Finnish voice] close painike</li>
+  <li>[Finnish voice] close painike</li>
+  <li>[Finnish voice] close painike</li>
+  <li>[Finnish voice] close painike</li>
+  <li>[Finnish voice] close painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+</ol>
 
 With screen reader UI in English and screen reader voice in Finnish:
 
-A. [Finnish voice] close button
-
-B. [Finnish voice] close button
-
-C. [Finnish voice] close button
-
-D. [Finnish voice] close button
-
-E. [Finnish voice] close button
-
-F. [English voice] close [Finnish voice] button
+<ol type="A">
+  <li>[Finnish voice] close button</li>
+  <li>[Finnish voice] close button</li>
+  <li>[Finnish voice] close button</li>
+  <li>[Finnish voice] close button</li>
+  <li>[Finnish voice] close button</li>
+  <li>[English voice] close [Finnish voice] button</li>
+</ol>
 
 ### Asus + NVDA + Edge
 
@@ -430,31 +360,25 @@ F. [English voice] close [Finnish voice] button
 
 With screen reader UI in Finnish and screen reader voice in Finnish:
 
-A. [Finnish voice] painike, close
-
-B. [Finnish voice] painike, close
-
-C. [Finnish voice] painike, close [English voice] close
-
-D. [Finnish voice] painike, close
-
-E. [Finnish voice] painike, close
-
-F. [Finnish voice] painike [English voice] close
+<ol type="A">
+  <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike, close [English voice] close</li>
+  <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike [English voice] close</li>
+</ol>
 
 With screen reader UI in English and screen reader voice in Finnish:
 
-A. [Finnish voice] button, close
-
-B. [Finnish voice] button, close
-
-C. [Finnish voice] button, close [English voice] close
-
-D. [Finnish voice] button, close
-
-E. [Finnish voice] button, close
-
-F. [Finnish voice] button [English voice] close
+<ol type="A">
+  <li>[Finnish voice] button, close</li>
+  <li>[Finnish voice] button, close</li>
+  <li>[Finnish voice] button, close [English voice] close</li>
+  <li>[Finnish voice] button, close</li>
+  <li>[Finnish voice] button, close</li>
+  <li>[Finnish voice] button [English voice] close</li>
+</ol>
 
 #### Asus + NVDA + Edge + using down arrow to move reading cursor
 
@@ -464,31 +388,25 @@ Cannot go directly to button, so we have to wait to hear the entire list item. I
 
 With screen reader UI in Finnish and screen reader voice in Finnish:
 
-A. [Finnish voice] close painike
-
-B. [Finnish voice] close painike
-
-C. [Finnish voice] close painike
-
-D. [Finnish voice] close painike
-
-E. [Finnish voice] close painike
-
-F. [English voice] close [Finnish voice] painike
+<ol type="A">
+  <li>[Finnish voice] close painike</li>
+  <li>[Finnish voice] close painike</li>
+  <li>[Finnish voice] close painike</li>
+  <li>[Finnish voice] close painike</li>
+  <li>[Finnish voice] close painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+</ol>
 
 With screen reader UI in English and screen reader voice in Finnish:
 
-A. [Finnish voice] close, button
-
-B. [Finnish voice] close, button
-
-C. [Finnish voice] close, button
-
-D. [Finnish voice] close, button
-
-E. [Finnish voice] close, button
-
-F. [English voice] close [Finnish voice] button
+<ol type="A">
+  <li>[Finnish voice] close, button</li>
+  <li>[Finnish voice] close, button</li>
+  <li>[Finnish voice] close, button</li>
+  <li>[Finnish voice] close, button</li>
+  <li>[Finnish voice] close, button</li>
+  <li>[English voice] close [Finnish voice] button</li>
+</ol>
 
 ## Asus + JAWS
 
@@ -505,91 +423,73 @@ F. [English voice] close [Finnish voice] button
 
 With screen reader UI in Finnish and screen reader voice in Finnish:
 
-A. [English voice] close painike
-
-B. [English voice] close painike
-
-C. [English voice] close painike, close
-
-D. [English voice] close painike
-
-E. [English voice] close painike
-
-F. [English voice] close painike
+<ol type="A">
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike, close</li>
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike</li>
+</ol>
 
 With screen reader UI in English and screen reader voice in Finnish:
 
-A. [English voice] close button
-
-B. [English voice] close button
-
-C. [English voice] close button, close
-
-D. [English voice] close button
-
-E. [English voice] close button
-
-F. [English voice] close button
+<ol type="A">
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button, close</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+</ol>
 
 #### Asus + JAWS + Chrome + using the down arrow to move the reading cursor
 
 With screen reader UI in Finnish and screen reader voice in Finnish:
 
-A. [English voice] close painike
-
-B. [English voice] close painike
-
-C. [English voice] close painike, close
-
-D. [English voice] close painike
-
-E. [English voice] close painike
-
-F. [English voice] close painike
+<ol type="A">
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike, close</li>
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike</li>
+</ol>
 
 With screen reader UI in English and screen reader voice in Finnish:
 
-A. [English voice] close button
-
-B. [English voice] close button
-
-C. [English voice] close button, close
-
-D. [English voice] close button
-
-E. [English voice] close button
-
-F. [English voice] close button
+<ol type="A">
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button, close</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+</ol>
 
 #### Asus + JAWS + Chrome + tabbing to move focus
 
 With screen reader UI in Finnish and screen reader voice in Finnish:
 
-A. [English voice] close [Finnish voice] painike
-
-B. [English voice] close [Finnish voice] painike
-
-C. [English voice] close [Finnish voice] painike
-
-D. [English voice] close [Finnish voice] painike
-
-E. [English voice] close [Finnish voice] painike
-
-F. [English voice] close [Finnish voice] painike
+<ol type="A">
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+</ol>
 
 With screen reader UI in English and screen reader voice in Finnish:
 
-A. [English voice] close button
-
-B. [English voice] close button
-
-C. [English voice] close button
-
-D. [English voice] close button
-
-E. [English voice] close button
-
-F. [English voice] close button
+<ol type="A">
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+</ol>
 
 ### Asus + JAWS + Firefox
 
@@ -599,91 +499,73 @@ F. [English voice] close button
 
 With screen reader UI in Finnish and screen reader voice in Finnish:
 
-A. [English voice] close painike
-
-B. [English voice] close painike
-
-C. [English voice] close painike, close
-
-D. [English voice] close painike
-
-E. [English voice] close painike
-
-F. [English voice] close painike
+<ol type="A">
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike, close</li>
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike</li>
+</ol>
 
 With screen reader UI in English and screen reader voice in Finnish:
 
-A. [English voice] close button
-
-B. [English voice] close button
-
-C. [English voice] close button, close
-
-D. [English voice] close button
-
-E. [English voice] close button
-
-F. [English voice] close button
+<ol type="A">
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button, close</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+</ol>
 
 #### Asus + JAWS + Firefox + using down arrow to move the reading cursor
 
 With screen reader UI in Finnish and screen reader voice in Finnish:
 
-A. [English voice] close painike
-
-B. [English voice] close painike
-
-C. [English voice] close painike, close
-
-D. [English voice] close painike [silence]
-
-E. [English voice] close painike
-
-F. [English voice] close painike
+<ol type="A">
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike, close</li>
+  <li>[English voice] close painike [silence]</li>
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike</li>
+</ol>
 
 With screen reader UI in English and screen reader voice in Finnish:
 
-A. [English voice] close button
-
-B. [English voice] close button
-
-C. [English voice] close button, close
-
-D. [English voice] close button, blank
-
-E. [English voice] close button
-
-F. [English voice] close button
+<ol type="A">
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button, close</li>
+  <li>[English voice] close button, blank</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+</ol>
 
 #### Asus + JAWS + Firefox + tabbing to move focus
 
 With screen reader UI in Finnish and screen reader voice in Finnish:
 
-A. [English voice] close [Finnish voice] painike
-
-B. [English voice] close [Finnish voice] painike
-
-C. [English voice] close [Finnish voice] painike
-
-D. [English voice] close [Finnish voice] painike
-
-E. [English voice] close [Finnish voice] painike
-
-F. [English voice] close [Finnish voice] painike
+<ol type="A">
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+</ol>
 
 With screen reader UI in English and screen reader voice in Finnish:
 
-A. [English voice] close button
-
-B. [English voice] close button
-
-C. [English voice] close button
-
-D. [English voice] close button
-
-E. [English voice] close button
-
-F. [English voice] close button
+<ol type="A">
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+</ol>
 
 ### Asus + JAWS + Opera
 
@@ -693,91 +575,73 @@ F. [English voice] close button
 
 With screen reader UI in Finnish and screen reader voice in Finnish:
 
-A. [English voice] close painike
-
-B. [English voice] close painike
-
-C. [English voice] close painike, close
-
-D. [English voice] close painike
-
-E. [English voice] close painike
-
-F. [English voice] close painike
+<ol type="A">
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike, close</li>
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike</li>
+</ol>
 
 With screen reader UI in English and screen reader voice in Finnish:
 
-A. [English voice] close button
-
-B. [English voice] close button
-
-C. [English voice] close button, close
-
-D. [English voice] close button
-
-E. [English voice] close button
-
-F. [English voice] close button
+<ol type="A">
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button, close</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+</ol>
 
 #### Asus + JAWS + Opera + using down arrow to move the reading cursor
 
 With screen reader UI in Finnish and screen reader voice in Finnish:
 
-A. [English voice] close painike
-
-B. [English voice] close painike
-
-C. [English voice] close painike, close
-
-D. [English voice] close painike
-
-E. [English voice] close painike
-
-F. [English voice] close painike
+<ol type="A">
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike, close</li>
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike</li>
+</ol>
 
 With screen reader UI in English and screen reader voice in Finnish:
 
-A. [English voice] close button
-
-B. [English voice] close button
-
-C. [English voice] close button, close
-
-D. [English voice] close button, blank
-
-E. [English voice] close button
-
-F. [English voice] close button
+<ol type="A">
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button, close</li>
+  <li>[English voice] close button, blank</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+</ol>
 
 #### Asus + JAWS + Opera + tabbing to move focus
 
 With screen reader UI in Finnish and screen reader voice in Finnish:
 
-A. [English voice] close [Finnish voice] painike
-
-B. [English voice] close [Finnish voice] painike
-
-C. [English voice] close [Finnish voice] painike
-
-D. [English voice] close [Finnish voice] painike
-
-E. [English voice] close [Finnish voice] painike
-
-F. [English voice] close [Finnish voice] painike
+<ol type="A">
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+</ol>
 
 With screen reader UI in English and screen reader voice in Finnish:
 
-A. [English voice] close button
-
-B. [English voice] close button
-
-C. [English voice] close button
-
-D. [English voice] close button
-
-E. [English voice] close button
-
-F. [English voice] close button
+<ol type="A">
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+</ol>
 
 ### Asus + JAWS + Edge
 
@@ -787,91 +651,78 @@ F. [English voice] close button
 
 With screen reader UI in Finnish and screen reader voice in Finnish:
 
-A. [English voice] close painike
-
-B. [English voice] close painike
-
-C. [English voice] close painike, close
-
-D. [English voice] close painike
-
-E. [English voice] close painike
-
-F. [English voice] close painike
+<ol type="A">
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike, close</li>
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike</li>
+</ol>
 
 With screen reader UI in English and screen reader voice in Finnish:
 
-A. [English voice] close button
-
-B. [English voice] close button
-
-C. [English voice] close button, close
-
-D. [English voice] close button
-
-E. [English voice] close button
-
-F. [English voice] close button
+<ol type="A">
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button, close</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+</ol>
 
 #### Asus + JAWS + Edge + using down arrow to move the reading cursor
 
 With screen reader UI in Finnish and screen reader voice in Finnish:
 
-A. [English voice] close painike
-
-B. [English voice] close painike
-
-C. [English voice] close painike, close
-
-D. [English voice] close painike
-
-E. [English voice] close painike
-
-F. [English voice] close painike
+<ol type="A">
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike, close</li>
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike</li>
+  <li>[English voice] close painike</li>
+</ol>
 
 With screen reader UI in English and screen reader voice in Finnish:
 
-A. [English voice] close button
-
-B. [English voice] close button
-
-C. [English voice] close button, close
-
-D. [English voice] close button
-
-E. [English voice] close button
-
-F. [English voice] close button
+<ol type="A">
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button, close</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+</ol>
 
 #### Asus + JAWS + Edge + tabbing to move focus
 
 With screen reader UI in Finnish and screen reader voice in Finnish:
 
-A. [Finnish voice] This button has `aria-label`: [English voice] close [Finnish voice] painike
-B. [Finnish voice] This button has `aria-label` and an explicit `lang` attribute: [English voice] close [Finnish voice] painike
-C. [Finnish voice] This button has `aria-labelledby`, and the visually-hidden label is outside: [English voice] close [Finnish
+<ol type="A">
+  <li>[Finnish voice] This button has aria-label: [English voice] close [Finnish voice] painike</li>
+  <li>[Finnish voice] This button has aria-label and an explicit lang attribute: [English voice] close [Finnish voice] painike</li>
+  <li>[Finnish voice] This button has aria-labelledby, and the visually-hidden label is outside: [English voice] close [Finnish
 voice] painike
-D. [Finnish voice] This button has `aria-labelledby`, and the `aria-hidden` and visually-hidden label is outside: [English
-voice] close [Finnish voice] painike
-
-E. [Finnish voice] This button has `aria-labelledby`, and the visually-hidden label is inside: [English voice] close [Finnish
-voice] painike
-
-F. [Finnish voice] This button has a visually-hidden label inside: [English voice] close [Finnish voice] painike
+  <li>[Finnish voice] This button has aria-labelledby, and the aria-hidden and visually-hidden label is outside: [English
+voice] close [Finnish voice] painike</li>
+  <li>[Finnish voice] This button has aria-labelledby, and the visually-hidden label is inside: [English voice] close [Finnish
+voice] painike</li>
+  <li>[Finnish voice] This button has a visually-hidden label inside: [English voice] close [Finnish voice] painike</li>
+</ol>
 
 With screen reader UI in English and screen reader voice in Finnish:
 
-A. [English voice] This button has `aria-label`: close button
-
-B. [English voice] This button has `aria-label` and an explicit `lang` attribute: close button
-C. [English voice] This button has `aria-labelledby`, and the
-visually-hidden label is outside: close button
-
-D. [English voice] This button has `aria-labelledby`, and the `aria-hidden` and visually-hidden label is outside: close button
-E. [English voice] This button has `aria-labelledby`, and the
-visually-hidden label is inside: close button
-
-F. [English voice] This button has a visually-hidden label inside: close button
+<ol type="A">
+  <li>[English voice] This button has aria-label: close button</li>
+  <li>[English voice] This button has aria-label and an explicit lang attribute: close button</li>
+  <li>[English voice] This button has aria-labelledby, and the
+visually-hidden label is outside: close button</li>
+  <li>[English voice] This button has aria-labelledby, and the aria-hidden and visually-hidden label is outside: close button</li>
+  <li>[English voice] This button has aria-labelledby, and the
+visually-hidden label is inside: close button</li>
+  <li> [English voice] This button has a visually-hidden label inside: close button</li>
+</ol>
 
 ## Samsung + TalkBack
 
@@ -885,31 +736,25 @@ F. [English voice] This button has a visually-hidden label inside: close button
 
 #### Samsung + TalkBack + Chrome + letting the screen reader run
 
-A. [English voice] close button
-
-B. [English voice] close button
-
-C. [English voice] close button, close
-
-D. [English voice] close button
-
-E. [English voice] close button
-
-F. [English voice] close button
+<ol type="A">
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button, close</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+</ol>
 
 #### Samsung + TalkBack + Chrome + swiping right to move reading pointer
 
-A. [English voice] close button
-
-B. [English voice] close button
-
-C. [English voice] close button, close
-
-D. [English voice] close button
-
-E. [English voice] close button
-
-F. [English voice] close button
+<ol type="A">
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button, close</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+  <li>[English voice] close button</li>
+</ol>
 
 ### Samsung + TalkBack + Firefox
 
@@ -917,31 +762,25 @@ F. [English voice] close button
 
 #### Samsung + TalkBack + Firefox + letting the screen reader run
 
-A. [Finnish voice] close painike
-
-B. [Finnish voice] close painike
-
-C. [Finnish voice] close painike, close
-
-D. [Finnish voice] close painike
-
-E. [Finnish voice] close painike
-
-F. [Finnish voice] close painike
+<ol type="A">
+  <li>[Finnish voice] close painike</li>
+  <li>[Finnish voice] close painike</li>
+  <li>[Finnish voice] close painike, close</li>
+  <li>[Finnish voice] close painike</li>
+  <li>[Finnish voice] close painike</li>
+  <li>[Finnish voice] close painike</li>
+</ol>
 
 #### Samsung + TalkBack + Firefox + swiping right to move reading pointer
 
-A. [Finnish voice] close painike
-
-B. [Finnish voice] close painike
-
-C. [Finnish voice] close painike, close
-
-D. [Finnish voice] close painike
-
-E. [Finnish voice] close painike
-
-F. [Finnish voice] close painike
+<ol type="A">
+  <li>[Finnish voice] close painike</li>
+  <li>[Finnish voice] close painike</li>
+  <li>[Finnish voice] close painike, close</li>
+  <li>[Finnish voice] close painike</li>
+  <li>[Finnish voice] close painike</li>
+  <li>[Finnish voice] close painike</li>
+</ol>
 
 ### Samsung + TalkBack + Opera Touch
 
@@ -949,31 +788,25 @@ F. [Finnish voice] close painike
 
 #### Samsung + TalkBack + Opera + letting the screen reader run
 
-A. [English voice] close [Finnish voice] painike
-
-B. [English voice] close [Finnish voice] painike
-
-C. [English voice] close [Finnish voice] painike [English voice] close
-
-D. [English voice] close [Finnish voice] painike
-
-E. [English voice] close [Finnish voice] painike
-
-F. [English voice] close [Finnish voice] painike
+<ol type="A">
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike [English voice] close</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+</ol>
 
 #### Samsung + TalkBack + Opera + swiping right to move reading pointer
 
-A. [English voice] close [Finnish voice] painike
-
-B. [English voice] close [Finnish voice] painike
-
-C. [English voice] close [Finnish voice] painike [English voice] close
-
-D. [English voice] close [Finnish voice] painike
-
-E. [English voice] close [Finnish voice] painike
-
-F. [English voice] close [Finnish voice] painike
+<ol type="A">
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike [English voice] close</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+</ol>
 
 ### Samsung + TalkBack + Edge
 
@@ -981,28 +814,24 @@ F. [English voice] close [Finnish voice] painike
 
 #### Samsung + TalkBack + Edge + letting the screen reader run
 
-A. [English voice] close [Finnish voice] painike
-
-B. [English voice] close [Finnish voice] painike
-
-C. [English voice] close [Finnish voice] painike [English voice] close
-
-D. [English voice] close [Finnish voice] painike
-
-E. [English voice] close [Finnish voice] painike
-
-F. [English voice] close [Finnish voice] painike
+<ol type="A">
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike [English voice] close</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+</ol>
 
 #### Samsung + TalkBack + Edge + swiping right to move reading pointer
 
-A. [English voice] close [Finnish voice] painike
+<ol type="A">
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike [English voice] close</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+</ol>
 
-B. [English voice] close [Finnish voice] painike
-
-C. [English voice] close [Finnish voice] painike [English voice] close
-
-D. [English voice] close [Finnish voice] painike
-
-E. [English voice] close [Finnish voice] painike
-
-F. [English voice] close [Finnish voice] painike
+<!-- markdownlint-enable MD033 -->

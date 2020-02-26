@@ -8,7 +8,21 @@ Screen readers don't always perform well in multiple languages (for example, whe
 
 ## TL;DR
 
-Put the text alternatives a `<span>` element or similar, and put that **inside** the element in question. Then use CSS to hide it **visually** (do not use `display: none` or `visibility: hidden`, those hide it from screen readers too).
+Put the text alternatives a `<span>` element or similar, and put that **inside** the element in question. Then use CSS to hide it **visually**.
+
+- Do not use `display: none` or `visibility: hidden`, those hide it from screen readers too.
+- Something like this works well:
+
+```css
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+```
 
 ## Setup
 
@@ -47,8 +61,9 @@ F. Using a visually hidden label inside the labelled element.
     - Example: [English voice] close [Finnish voice] painike, close
   - 1: The accessible label is announced in the right voice, but the name of the element is announced in the wrong voice
     - Example: [English voice] close, painike
-  - 0: the accessible label is announced in the wrong voice
-    - Example: [Finnish voice] close, painike
+  - 0: the accessible label is announced in the wrong voice, or there's some other big issue
+    - Example 1: [Finnish voice] close, painike
+    - Example 2: [English voice] This button has aria-label: close button
 
 - I calculated the mean score for of the 6 approaches. Check out [the Google spreadsheet](https://docs.google.com/spreadsheets/d/19fpze-03_JEFtm7MKrQM8XehMAQe3T6o2W5BM-zx4AY/), on the "Analysis" tab.
   - On the overall analysis, option F was the best, scoring 2.2 out of 3
