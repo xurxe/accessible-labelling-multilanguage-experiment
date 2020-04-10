@@ -32,49 +32,69 @@
   </head>
   <body>
     <main>
-      <h1>Different accessible naming methods</h1>
+      <h1>Different accessible labelling methods</h1>
       <ol>
         <li>
-          This button has <code>aria-label</code>:
+          <p>This button has <code>aria-label</code>:</p>
           <button aria-label="close">
             <span aria-hidden="true">X</span>
           </button>
         </li>
         <li>
-          This button has <code>aria-label</code> and an explicit
-          <code>lang</code> attribute:
+          <p>
+            This button has <code>aria-label</code> and an explicit
+            <code>lang</code> attribute:
+          </p>
           <button lang="en" aria-label="close">
             <span aria-hidden="true">X</span>
           </button>
         </li>
         <li>
-          This button has <code>aria-labelledby</code>, and the visually-hidden
-          label is outside:
+          <p>
+            This button has <code>aria-labelledby</code>, and the visually
+            hidden label is outside:
+          </p>
           <button aria-labelledby="lalala">
             <span aria-hidden="true">X</span>
           </button>
           <span id="lalala" class="visually-hidden">Close</span>
         </li>
         <li>
-          This button has <code>aria-labelledby</code>, and the
-          <code>aria-hidden</code> and visually-hidden label is outside:
+          <p>
+            This button has <code>aria-labelledby</code>, and the visually
+            hidden and <code>aria-hidden</code> label is outside:
+          </p>
           <button aria-labelledby="lalala">
             <span aria-hidden="true">X</span>
           </button>
-          <span id="lalala" aria-hidden="true" class="visually-hidden"
+          <span id="lalala" class="visually-hidden" aria-hidden="true"
             >Close</span
           >
         </li>
         <li>
-          This button has <code>aria-labelledby</code>, and the visually-hidden
-          label is inside:
+          <p>
+            This button has <code>aria-labelledby</code>, and the visually
+            hidden label is inside:
+          </p>
           <button aria-labelledby="lalala">
             <span aria-hidden="true">X</span>
             <span id="lalala" class="visually-hidden">Close</span>
           </button>
         </li>
         <li>
-          This button has a visually-hidden label inside:
+          <p>
+            This button has <code>aria-labelledby</code>, and the visually
+            hidden and <code>aria-hidden</code> label is inside:
+          </p>
+          <button aria-labelledby="lalala">
+            <span aria-hidden="true">X</span>
+            <span id="lalala" class="visually-hidden" aria-hidden="true"
+              >Close</span
+            >
+          </button>
+        </li>
+        <li>
+          <p>This button has a visually hidden label inside:</p>
           <button>
             <span aria-hidden="true">X</span>
             <span class="visually-hidden">Close</span>
@@ -84,7 +104,7 @@
       <p>
         Check out the
         <a
-          href="https://github.com/xurxe/accessible-labelling-multilanguage-experiment.git"
+          href="https://github.com/xurxe/accessible-labelling-multilanguage-experiment"
           >GitHub repository</a
         >
         for test results!
