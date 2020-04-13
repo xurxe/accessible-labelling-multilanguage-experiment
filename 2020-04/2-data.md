@@ -14,6 +14,7 @@
   <li>[Finnish voice] close, painike, close</li>
   <li>[Finnish voice] close, painike</li>
   <li>[Finnish voice] close, painike</li>
+  <li>[Finnish voice] close, painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
 </ol>
 
@@ -22,7 +23,8 @@
 <ol type="A">
   <li>[Finnish voice] close, painike</li>
   <li>[Finnish voice] close, painike</li>
-  <li>[English voice] close [Finnish voice] painike [English voice] close</li>
+  <li>[Finnish voice] close, painike [English voice] close</li>
+  <li>[Finnish voice] close, painike</li>
   <li>[Finnish voice] close, painike</li>
   <li>[Finnish voice] close, painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
@@ -33,7 +35,8 @@
 <ol type="A">
   <li>[Finnish voice] close, painike</li>
   <li>[Finnish voice] close, painike</li>
-  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[Finnish voice] close, painike</li>
+  <li>[Finnish voice] close, painike</li>
   <li>[Finnish voice] close, painike</li>
   <li>[Finnish voice] close, painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
@@ -50,6 +53,7 @@
   <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
 </ol>
 
 #### VoiceOver (desktop) + Chrome + using VO-right arrow to move the reading cursor
@@ -58,6 +62,7 @@
   <li>[Finnish voice] close, painike</li>
   <li>[Finnish voice] close, painike</li>
   <li>[English voice] close [Finnish voice] painike [English voice] close</li>
+  <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
@@ -72,9 +77,46 @@
   <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
 </ol>
 
 ### VoiceOver (desktop) + Firefox
+
+#### VoiceOver (desktop) + Firefox + continuous reading
+
+<ol type="A">
+  <li>[Finnish voice] close, button</li>
+  <li>[Finnish voice] close, button</li>
+  <li>[Finnish voice] close, button, close</li>
+  <li>[Finnish voice] close, button</li>
+  <li>[Finnish voice] close, button</li>
+  <li>[Finnish voice] close, button</li>
+  <li>[Finnish voice] close, button</li>
+</ol>
+
+#### VoiceOver (desktop) + Firefox + using VO-right arrow to move the reading cursor
+
+<ol type="A">
+  <li>[Finnish voice] close, button</li>
+  <li>[Finnish voice] close, button</li>
+  <li>[Finnish voice] close, button, close</li>
+  <li>[Finnish voice] close, button</li>
+  <li>[Finnish voice] close, button</li>
+  <li>[Finnish voice] close, button</li>
+  <li>[Finnish voice] close, button</li>
+</ol>
+
+#### VoiceOver (desktop) + Firefox + tabbing to move focus
+
+<ol type="A">
+  <li>[Finnish voice] close, button</li>
+  <li>[Finnish voice] close, button</li>
+  <li>[Finnish voice] close, button, close</li>
+  <li>[Finnish voice] close, button</li>
+  <li>[Finnish voice] close, button</li>
+  <li>[Finnish voice] close, button</li>
+  <li>[Finnish voice] close, button</li>
+</ol>
 
 ### VoiceOver (desktop) + Opera
 
@@ -84,6 +126,7 @@
   <li>[Finnish voice] close, painike</li>
   <li>[Finnish voice] close, painike</li>
   <li>[English voice] close [Finnish voice] painike, close</li>
+  <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
@@ -98,6 +141,7 @@
   <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
 </ol>
 
 #### VoiceOver (desktop) + Opera + tabbing to move focus
@@ -105,6 +149,7 @@
 <ol type="A">
   <li>[Finnish voice] close, painike</li>
   <li>[Finnish voice] close, painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
@@ -122,6 +167,7 @@
   <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike, close</li>
   <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
 </ol>
 
 #### VoiceOver (desktop) + Edge + using VO-right arrow to move the reading cursor
@@ -131,7 +177,8 @@
   <li>[Finnish voice] close, painike</li>
   <li>[English voice] close [Finnish voice] painike [English voice] close</li>
   <li>[English voice] close [Finnish voice] painike</li>
-  <li>[English voice] close [Finnish voice] painike, close</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
 </ol>
 
@@ -142,7 +189,8 @@
   <li>[Finnish voice] close, painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
-  <li>[English voice] close [Finnish voice] painike, close</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
 </ol>
 
@@ -150,7 +198,17 @@
 
 ### VoiceOver (mobile) + Safari, Chrome, Firefox, Opera Touch, Edge
 
-On iPhone, you can perform a simple gesture (by default, swipe up with one finger) to change VoiceOver language regardless of the OS language. When VoiceOver was in Finnish, everything was ready with a Finnish voice. When VoiceOver was in English, everything was read with an English voice.
+On iPhone, you can perform a simple gesture (by default, swipe up with one finger) to change VoiceOver language regardless of the OS language. If VoiceOver is in Finnish, everything is announced with a Finnish voice. When VoiceOver is in English, everything is announced with an English voice.
+
+<ol type="A">
+  <li>[Finnish voice] close, painike</li>
+  <li>[Finnish voice] close, painike</li>
+  <li>[Finnish voice] close, painike, close</li>
+  <li>[Finnish voice] close, painike</li>
+  <li>[Finnish voice] close, painike</li>
+  <li>[Finnish voice] close, painike</li>
+  <li>[Finnish voice] close, painike</li>
+</ol>
 
 ## NVDA
 
@@ -164,14 +222,26 @@ On iPhone, you can perform a simple gesture (by default, swipe up with one finge
   <li>[Finnish voice] painike, close [English voice] close</li>
   <li>[Finnish voice] painike, close</li>
   <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike, close</li>
   <li>[Finnish voice] painike [English voice] close</li>
 </ol>
 
 #### NVDA + Chrome + using down arrow to move reading cursor
 
+<ol type="A">
+  <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike, close [English voice] close</li>
+  <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike [English voice] close</li>
+</ol>
+
 #### NVDA + Chrome + tabbing to move focus
 
 <ol type="A">
+  <li>[Finnish voice] close painike</li>
   <li>[Finnish voice] close painike</li>
   <li>[Finnish voice] close painike</li>
   <li>[Finnish voice] close painike</li>
@@ -191,13 +261,25 @@ On iPhone, you can perform a simple gesture (by default, swipe up with one finge
   <li>[Finnish voice] painike [English voice] close</li>
   <li>[Finnish voice] painike [English voice] close</li>
   <li>[Finnish voice] painike [English voice] close</li>
+  <li>[Finnish voice] painike [English voice] close</li>
 </ol>
 
 #### NVDA + Firefox + using down arrow to move reading cursor
 
+<ol type="A">
+  <li>[Finnish voice] painike [English voice] close</li>
+  <li>[Finnish voice] painike [English voice] close</li>
+  <li>[Finnish voice] painike [English voice] close, close</li>
+  <li>[Finnish voice] painike [English voice] close</li>
+  <li>[Finnish voice] painike [English voice] close</li>
+  <li>[Finnish voice] painike [English voice] close</li>
+  <li>[Finnish voice] painike [English voice] close</li>
+</ol>
+
 #### NVDA + Firefox + tabbing to move focus
 
 <ol type="A">
+  <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
@@ -214,14 +296,26 @@ On iPhone, you can perform a simple gesture (by default, swipe up with one finge
   <li>[Finnish voice] painike, close [English voice] close</li>
   <li>[Finnish voice] painike, close</li>
   <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike, close</li>
   <li>[Finnish voice] painike [English voice] close</li>
 </ol>
 
 #### NVDA + Opera + using down arrow to move reading cursor
 
+<ol type="A">
+  <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike, close [English voice] close</li>
+  <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike [English voice] close</li>
+</ol>
+
 #### NVDA + Opera + tabbing to move focus
 
 <ol type="A">
+  <li>[Finnish voice] close painike</li>
   <li>[Finnish voice] close painike</li>
   <li>[Finnish voice] close painike</li>
   <li>[Finnish voice] close painike</li>
@@ -240,14 +334,26 @@ On iPhone, you can perform a simple gesture (by default, swipe up with one finge
   <li>[Finnish voice] painike, close [English voice] close</li>
   <li>[Finnish voice] painike, close</li>
   <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike, close</li>
   <li>[Finnish voice] painike [English voice] close</li>
 </ol>
 
 #### NVDA + Edge + using down arrow to move reading cursor
 
+<ol type="A">
+  <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike, close [English voice] close</li>
+  <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike, close</li>
+  <li>[Finnish voice] painike [English voice] close</li>
+</ol>
+
 #### NVDA + Edge + tabbing to move focus
 
 <ol type="A">
+  <li>[Finnish voice] close painike</li>
   <li>[Finnish voice] close painike</li>
   <li>[Finnish voice] close painike</li>
   <li>[Finnish voice] close painike</li>
@@ -269,6 +375,7 @@ On iPhone, you can perform a simple gesture (by default, swipe up with one finge
   <li>[English voice] close painike</li>
   <li>[English voice] close painike</li>
   <li>[English voice] close painike</li>
+  <li>[English voice] close painike</li>
 </ol>
 
 #### JAWS + Chrome + using the down arrow to move the reading cursor
@@ -277,6 +384,7 @@ On iPhone, you can perform a simple gesture (by default, swipe up with one finge
   <li>[English voice] close painike</li>
   <li>[English voice] close painike</li>
   <li>[English voice] close painike, close</li>
+  <li>[English voice] close painike</li>
   <li>[English voice] close painike</li>
   <li>[English voice] close painike</li>
   <li>[English voice] close painike</li>
@@ -291,42 +399,12 @@ On iPhone, you can perform a simple gesture (by default, swipe up with one finge
   <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
 </ol>
 
 ### JAWS + Firefox
 
-#### JAWS + Firefox + continuous reading
-
-<ol type="A">
-  <li>[English voice] close painike</li>
-  <li>[English voice] close painike</li>
-  <li>[English voice] close painike, close</li>
-  <li>[English voice] close painike</li>
-  <li>[English voice] close painike</li>
-  <li>[English voice] close painike</li>
-</ol>
-
-#### JAWS + Firefox + using down arrow to move the reading cursor
-
-<ol type="A">
-  <li>[English voice] close painike</li>
-  <li>[English voice] close painike</li>
-  <li>[English voice] close painike, close</li>
-  <li>[English voice] close painike [silence]</li>
-  <li>[English voice] close painike</li>
-  <li>[English voice] close painike</li>
-</ol>
-
-#### JAWS + Firefox + tabbing to move focus
-
-<ol type="A">
-  <li>[English voice] close [Finnish voice] painike</li>
-  <li>[English voice] close [Finnish voice] painike</li>
-  <li>[English voice] close [Finnish voice] painike</li>
-  <li>[English voice] close [Finnish voice] painike</li>
-  <li>[English voice] close [Finnish voice] painike</li>
-  <li>[English voice] close [Finnish voice] painike</li>
-</ol>
+This combination didn't really work.
 
 ### JAWS + Opera
 
@@ -336,6 +414,7 @@ On iPhone, you can perform a simple gesture (by default, swipe up with one finge
   <li>[English voice] close painike</li>
   <li>[English voice] close painike</li>
   <li>[English voice] close painike, close</li>
+  <li>[English voice] close painike</li>
   <li>[English voice] close painike</li>
   <li>[English voice] close painike</li>
   <li>[English voice] close painike</li>
@@ -350,11 +429,13 @@ On iPhone, you can perform a simple gesture (by default, swipe up with one finge
   <li>[English voice] close painike</li>
   <li>[English voice] close painike</li>
   <li>[English voice] close painike</li>
+  <li>[English voice] close painike</li>
 </ol>
 
 #### JAWS + Opera + tabbing to move focus
 
 <ol type="A">
+  <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
@@ -374,6 +455,7 @@ On iPhone, you can perform a simple gesture (by default, swipe up with one finge
   <li>[English voice] close painike</li>
   <li>[English voice] close painike</li>
   <li>[English voice] close painike</li>
+  <li>[English voice] close painike</li>
 </ol>
 
 #### JAWS + Edge + using down arrow to move the reading cursor
@@ -385,20 +467,19 @@ On iPhone, you can perform a simple gesture (by default, swipe up with one finge
   <li>[English voice] close painike</li>
   <li>[English voice] close painike</li>
   <li>[English voice] close painike</li>
+  <li>[English voice] close painike</li>
 </ol>
 
 #### JAWS + Edge + tabbing to move focus
 
 <ol type="A">
-  <li>[Finnish voice] This button has aria-label: [English voice] close [Finnish voice] painike</li>
-  <li>[Finnish voice] This button has aria-label and an explicit lang attribute: [English voice] close [Finnish voice] painike</li>
-  <li>[Finnish voice] This button has aria-labelledby, and the visually hidden label is outside: [English voice] close [Finnish
-voice] painike
-  <li>[Finnish voice] This button has aria-labelledby, and the aria-hidden and visually hidden label is outside: [English
-voice] close [Finnish voice] painike</li>
-  <li>[Finnish voice] This button has aria-labelledby, and the visually hidden label is inside: [English voice] close [Finnish
-voice] painike</li>
-  <li>[Finnish voice] This button has a visually hidden label inside: [English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
 </ol>
 
 ## Samsung + TalkBack
@@ -408,23 +489,25 @@ voice] painike</li>
 #### Samsung + TalkBack + Chrome + continuous reading
 
 <ol type="A">
-  <li>[English voice] close button</li>
-  <li>[English voice] close button</li>
-  <li>[English voice] close button, close</li>
-  <li>[English voice] close button</li>
-  <li>[English voice] close button</li>
-  <li>[English voice] close button</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike [English voice] close</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
 </ol>
 
 #### Samsung + TalkBack + Chrome + swiping right to move reading pointer
 
 <ol type="A">
-  <li>[English voice] close button</li>
-  <li>[English voice] close button</li>
-  <li>[English voice] close button, close</li>
-  <li>[English voice] close button</li>
-  <li>[English voice] close button</li>
-  <li>[English voice] close button</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike [English voice] close</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
 </ol>
 
 ### Samsung + TalkBack + Firefox
@@ -435,6 +518,7 @@ voice] painike</li>
   <li>[Finnish voice] close painike</li>
   <li>[Finnish voice] close painike</li>
   <li>[Finnish voice] close painike, close</li>
+  <li>[Finnish voice] close painike</li>
   <li>[Finnish voice] close painike</li>
   <li>[Finnish voice] close painike</li>
   <li>[Finnish voice] close painike</li>
@@ -449,32 +533,33 @@ voice] painike</li>
   <li>[Finnish voice] close painike</li>
   <li>[Finnish voice] close painike</li>
   <li>[Finnish voice] close painike</li>
+  <li>[Finnish voice] close painike</li>
 </ol>
 
 ### Samsung + TalkBack + Opera Touch
 
-- Opera version: 2.3.0
-
 #### Samsung + TalkBack + Opera + continuous reading
 
 <ol type="A">
-  <li>[English voice] close [Finnish voice] painike</li>
-  <li>[English voice] close [Finnish voice] painike</li>
-  <li>[English voice] close [Finnish voice] painike [English voice] close</li>
-  <li>[English voice] close [Finnish voice] painike</li>
-  <li>[English voice] close [Finnish voice] painike</li>
-  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close, button</li>
+  <li>[English voice] close, button</li>
+  <li>[English voice] close, button, close</li>
+  <li>[English voice] close, button</li>
+  <li>[English voice] close, button</li>
+  <li>[English voice] close, button</li>
+  <li>[English voice] close, button</li>
 </ol>
 
 #### Samsung + TalkBack + Opera + swiping right to move reading pointer
 
 <ol type="A">
-  <li>[English voice] close [Finnish voice] painike</li>
-  <li>[English voice] close [Finnish voice] painike</li>
-  <li>[English voice] close [Finnish voice] painike [English voice] close</li>
-  <li>[English voice] close [Finnish voice] painike</li>
-  <li>[English voice] close [Finnish voice] painike</li>
-  <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close, button</li>
+  <li>[English voice] close, button</li>
+  <li>[English voice] close, button, close</li>
+  <li>[English voice] close, button</li>
+  <li>[English voice] close, button</li>
+  <li>[English voice] close, button</li>
+  <li>[English voice] close, button</li>
 </ol>
 
 ### Samsung + TalkBack + Edge
@@ -488,6 +573,7 @@ voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
+  <li>[English voice] close [Finnish voice] painike</li>
 </ol>
 
 #### Samsung + TalkBack + Edge + swiping right to move reading pointer
@@ -496,6 +582,7 @@ voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike [English voice] close</li>
+  <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>
   <li>[English voice] close [Finnish voice] painike</li>

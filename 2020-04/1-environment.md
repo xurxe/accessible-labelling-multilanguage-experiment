@@ -14,7 +14,7 @@ I compared the following 7 approaches for labelling a close button:
 <!-- markdownlint-disable MD033 -->
 <ol type="A">
   <li>Using <code>aria-label</code>.</li>
-  <li>Using <code>aria-label</code> and an explicit <code>lang</code> attribute.</li>
+  <li>Using <code>aria-label</code> and an explicit <code>lang</code>  attribute.</li>
   <li>Using <code>aria-labelledby</code> and referring to a visually hidden label outside the labelled element.</li>
   <li>Using <code>aria-labelledby</code> and referring to a visually hidden and <code>aria-hidden</code> label outside the labelled element.</li>
   <li>Using <code>aria-labelledby</code> and referring to a visually hidden label inside the labelled element.</li>

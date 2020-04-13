@@ -6,27 +6,33 @@ When information is conveyed by visual means (for example, an "X" icon to indica
 
 Screen readers don't always perform well in multiple languages (for example, when the OS or screen reader UI is in one language, and the web content is in another). There are multiple challenges in this matter, but this experiment was specifically designed to figure out what's the best way to provide text alternatives for elements that don't support an `alt` attribute.
 
-## TL;DR
+## Overview
 
-Put the text alternatives a `<span>` element or similar, and put that **inside** the element in question. Then use CSS to hide it **visually**.
+I made a website with a number of common ways to provide text alternatives.
 
-- Do not use `display: none` or `visibility: hidden`, those hide it from screen readers too.
-- Something like this works well:
+Then I performed tests...
 
-```css
-.visually-hidden {
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
-}
-```
+...using 4 major screen readers (VoiceOver, NVDA, JAWS, TalkBack)
+
+...on 5 major browsers (Safari, Chrome, Firefox, Opera / Opera Touch, Edge)
+
+...on desktop and mobile
+
+...in 3 modes (continous reading, using keyboard or swiping shortcuts to move the reading cursor, and tabbing to move focus to the next button).
 
 ## Testing site
 
 [Check it out on GitHub pages](https://xurxe.github.io/accessible-labelling-multilanguage-experiment/)!
+
+## Outcomes
+
+I'm planning on repeating this experiment once a year.
+
+- [2020 experiment](2020-04)
+
+## Sibling study
+
+[Check out my screen reader multilanguage experiment](https://github.com/xurxe/screenreader-multilanguage-experiment)!
 
 ## Author
 
