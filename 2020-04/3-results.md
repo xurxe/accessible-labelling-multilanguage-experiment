@@ -4,7 +4,7 @@
 
 - For each test case, I recorded how and with what voice (Finnish or English) the screen reader announces the button. Check out [data.md](2020-04/data.md)!
 
-- I gave scores for each test case. Check out [the Google spreadsheet](https://docs.google.com/spreadsheets/d/18hjaiR4UyI4lisJQK_L7eHHohkWZwv4vlrvHm1IkIXY/), on the "Scores" tab:
+- I gave scores for each test case. Check out [the Google Sheet's Scores tab](https://docs.google.com/spreadsheets/d/18hjaiR4UyI4lisJQK_L7eHHohkWZwv4vlrvHm1IkIXY/edit#gid=0):
 
   - 3: Perfect announcement; voices and languages matched correctly.
     - Example 1: [English voice] close button
@@ -18,7 +18,7 @@
 
 ## Analysis
 
-I did some analysis. Check out [the Google spreadsheet](https://docs.google.com/spreadsheets/d/18hjaiR4UyI4lisJQK_L7eHHohkWZwv4vlrvHm1IkIXY/), on the "Analysis" tab.
+I did some analysis. Check out [the Google Sheet's Analysis tab](https://docs.google.com/spreadsheets/d/18hjaiR4UyI4lisJQK_L7eHHohkWZwv4vlrvHm1IkIXY/edit#gid=1046548750).
 
 - All ARIA-based approaches (A to F) led to language issues in more than 50% test cases.
 - Approach G (using a visually hidden text element) led to the least amount of language issues. Furthermore, if we exclude from the analysis the test cases that gave uniformly bad results (score of 0 or 1), approach G was announced perfectly 100% of the time.
@@ -40,12 +40,16 @@ Put the text alternatives a `<span>` element or similar, and put that **inside**
 - Something like this works well:
 
 ```css
-.visually-hidden {
-  position: absolute !important;
+.visually-hidden:not(:focus):not(:focus-within):not(:active) {
+  position: absolute;
   height: 1px;
   width: 1px;
+  border: 0;
+  padding: 0;
+  margin: 0;
   overflow: hidden;
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
 }
 ```

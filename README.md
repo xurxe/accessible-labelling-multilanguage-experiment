@@ -32,7 +32,8 @@ I'm planning on repeating this experiment once a year.
 
 ## Sibling study
 
-[Check out my screen reader multilanguage experiment](https://github.com/xurxe/screenreader-multilanguage-experiment)!
+- [Screen reader multilanguage experiment](https://github.com/xurxe/screenreader-multilanguage-experiment), the previous study.
+- [The troubled state of screen readers in multilingual situations](https://medium.com/@xurxe/the-troubled-state-of-screen-readers-in-multilingual-situations-f6a9da4ecdf3), a Medium article where I explain and analyze several related experiments.
 
 ## Author
 
